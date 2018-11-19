@@ -1,0 +1,37 @@
+<%= simple_form_for @product, :html => { :class => "form-horizontal product" } do |f| %>
+
+  <% if @product.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @product.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+  <div class="dl-horizontal">
+    <%= f.input :product_code, label: 'Enter product code', hint: 'e.g. GD10, RX250', error: 'You must enter a product code' %>
+    <%= f.input :description, label: 'Enter description', hint: 'Enter a description for the product', error: 'You must enter a description for the product' %>
+  </div>
+    <div class="dl-horizontal">
+      <h4>Images and Documentation (optional):</h4>
+      <p><%= f.label :main_image %>
+      <%= f.file_field :header_image %></p>
+      <p><%= f.label :uploads %>
+      <%= f.file_field :uploads, multiple:true %></p>
+    </div>
+
+  <div class="form-group">
+    <div class="col-lg-10">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                products_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

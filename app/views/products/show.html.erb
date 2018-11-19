@@ -1,0 +1,115 @@
+<%- model_class = Product -%>
+<div class="page-header">
+  <h1><%= @product.product_code %></h1>
+</div>
+
+  <% if @product.header_image.attached? %>
+    <div class="dl-horizontal" id="product-description">
+      <%= image_tag @product.header_image.variant(resize: "200x200"), id: "main-image" %>
+      <p><strong><%= model_class.human_attribute_name(:description) %>:</strong> <%= simple_format(@product.description) %></p>
+    </div>
+  <% else %>
+  <div class="dl-horizontal" id="product-description">
+    <span><strong><%= model_class.human_attribute_name(:description) %>: </strong></span>
+    <span><%= @product.description %></span>
+    <p class="image-message">Click the Edit button to add images and documentation</p>
+  </div>
+  <% end %>
+
+
+<% if @product.uploads.attached? %>
+  <div class="dl-horizontal" id="product-uploads">
+    <% if can? :update, @product %>
+      <%= link_to 'Add documentation', edit_product_path(@product), :class => 'add-product-info', :id => 'documentation' %>
+    <% end %>
+    <% @product.uploads.each do |upload| %>
+      <% if upload.variable? %>
+        <span><%= image_tag upload.variant(resize: "100x100"), class: "other-image" %></span>
+      <% elsif upload.previewable? %>
+        <span><%= link_to image_tag(upload.preview(resize: "100x100"), class: "other-image"), rails_blob_path(upload), target: "_blank" %></span>
+      <% else %>
+        <span><%= link_to image_tag("paper.jpg", size: "100x100", class: "other-image"), rails_blob_path(upload), target: "_blank" %></span>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>
+
+<div class="dl-horizontal">
+  <h4>FAQs:</h4>
+  <% if can? :create, @product.faqs %>
+  <%= link_to 'Add an FAQ', new_product_faq_path(@product), :class => 'add-product-info' %>
+<% end %>
+<% if @product.faqs.present? %>
+<table class = "table table-hover">
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Answer</th>
+      <% if can? :destroy, @product.faqs %>
+      <th></th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <% @product.faqs.each do |faq| %>
+    <tr>
+      <td><%= faq.question %></td>
+      <td><%= faq.answer %></td>
+      <% if can? :destroy, @product.faqs %>
+      <td><%= link_to t('X', :default => t("X")),
+                      product_faq_path(@product, faq),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => 'Are you sure you want to delete this FAQ?') },
+                      :id =>'delete-faq' %></td>
+      <% end %>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+<% end %>
+</div>
+
+<h4>Notes:</h4>
+<% if can? :create, @product.notes %>
+<%= link_to 'Add a note', new_product_note_path(@product), :class => 'add-product-info' %>
+<% end %>
+<div class="dl-horizontal" id="product-notes">
+      <ul>
+<% @product.notes.each do |note| %>
+    <% if can? :read, note %>
+        <li class="postit">
+          <a data-target="#">
+            <% if can? :destroy, @product.notes %>
+            <%= link_to t('X', :default => t("X")),
+                      product_note_path(@product, note),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => 'Are you sure you want to delete this note?') },
+                      :id =>'delete-note' %>
+          <% end %>
+            <p class="note-content"><%= note.content %></p>
+            <p class="note-author"><strong><%= note.author %></strong> in <%=note.updated_at.strftime("%b %Y") %></p>
+          </a>
+        </li>
+      <% end %>
+    <% end %>
+      </ul>
+</div>
+
+<div id="product-links">
+<%= link_to t('.index', :default => t("helpers.links.index")),
+              products_path, :class => 'btn btn-default'  %>
+
+<div id="change-buttons">
+  <% if can? :update, @products %>
+<%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_product_path(@product), :class => 'btn btn-info' %>
+  <% end %>
+  <% if can? :destroy, @products %>
+<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              product_path(@product),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+  <% end %>
+</div>              
+</div>

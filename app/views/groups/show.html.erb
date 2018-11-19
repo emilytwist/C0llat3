@@ -1,0 +1,22 @@
+<%- model_class = Group -%>
+<div class="page-header">
+  <h1><%= @group.name %></h1>
+</div>
+
+              
+<div class="dl-horizontal">
+  <% if @group.products.present? %>
+    <% @group.products.each do |product| %>
+        <dt><%= link_to product.product_code, group_product_path(product) %></dt><dd><%= truncate(product.description, :length => 70, :separator => ' ') %></dd>
+    <% end %>
+  </ul>
+  <% else %>
+    <h4>Click below to add products to this group</h4>
+  <% end %>
+</div>
+
+
+  <% if can? :update, @groups %>
+    <%= link_to t('.edit', :default => t("Manage group")),
+                  group_add_path(@group), :class => 'btn btn-info' %>
+  <% end %>

@@ -1,0 +1,112 @@
+@import "twitter/bootstrap/bootstrap";
+
+// Glyphicons are not required by default, uncomment the following lines to enable them.
+@glyphiconsEotPath: font-url("glyphicons-halflings-regular.eot");
+@glyphiconsEotPath_iefix: font-url("glyphicons-halflings-regular.eot?#iefix");
+@glyphiconsWoffPath: font-url("glyphicons-halflings-regular.woff");
+@glyphiconsTtfPath: font-url("glyphicons-halflings-regular.ttf");
+@glyphiconsSvgPath: font-url("glyphicons-halflings-regular.svg#glyphicons_halflingsregular");
+
+@import "twitter/bootstrap/glyphicons.less";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
+//
+// Example:
+// @link-color: #ff0000;
+
+.navbar-default{
+	background-image: linear-gradient(#18a062, #18a062 75%, #18a062);
+	background-color: #18a062;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+#app-title{
+	color: #f9f9f9;
+	font-size: 24px;
+	padding-top:13px;
+	}
+#app-links {
+	color: #f9f9f9
+}
+#app-links a{
+	color: #f9f9f9;
+	}
+#app-logo {
+	float:left;
+	margin-left:-20px;
+	margin-right: 20px;
+}
+#dropdown-background {
+	background-color: #18a062;
+}
+#dropdown-background a:hover {
+	color: #18a062
+}
+
+#content {
+	height:0;
+	width:100%;
+	margin-top:80px;
+}
+
+.dl-horizontal {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+#footer {
+	margin-top: 20px;
+	height:40px;
+	background-image: linear-gradient(#18a062, #18a062 75%, #18a062);
+	background-color: #18a062;
+	color: #f9f9f9;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#footer span {
+	padding-top:10px;
+	padding-left:5%;
+	padding-right:5%;
+}
+#footer a {
+	color: #f9f9f9;
+}
+#change-buttons {
+	float:right;
+}
+
+#collate-header img{
+	position: fixed;
+	margin-left:-2px;
+	top: 0;
+	height: 150px;
+	clear:both;
+	}
+#welcome-container{
+	margin-top:180px;
+}
+
+.is-invalid { 
+    outline: none;
+    border-color: #dc3545;
+    box-shadow: 0 0 6px #dc3545;
+}
+
+.is-invalid:focus {
+	box-shadow: none;
+	border: 1px solid #dc3545;
+}
+
+.invalid-feedback {
+	color: #dc3545;
+}
+

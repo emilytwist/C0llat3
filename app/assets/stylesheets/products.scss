@@ -1,0 +1,164 @@
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.image-message {
+	font-style: italic;
+	margin-top: 15px;
+}
+
+.other-image {
+		padding: 5px;
+		margin: 10px;
+		border-top: 2px solid #eee;
+		border-bottom: 2px solid #eee;
+	}
+
+#main-image {
+	border: 2px solid #eee;
+	border-radius: 10px 10px 3px 10px;
+	margin-right:30px;
+	float:left;
+	}
+
+#product-description {
+	width:100%;
+	height:auto;
+	display:table;
+}
+
+#product-description p{
+	vertical-align: top;
+}
+
+#product-uploads {
+	clear:both;
+	width:100%;
+}
+
+#product_description {
+	min-height: 100px;
+}
+
+#delete-note {
+	padding: 5px;
+	border:1px solid #eee;
+	border-radius: 8px;
+	float:right;
+	margin-top:-45px;
+	margin-right:10px;
+}
+
+#product-notes{
+	width: 100%;
+	height:auto;
+	display:table;
+}
+
+#product-links {
+	clear:both;
+	width: 100%;
+}
+
+
+.postit {
+float:left;
+  line-height: 1;
+  text-align:center;     
+  width: 225px;    
+  margin: 15px;    
+  min-height:200px;
+  max-height:200px;
+  padding-top:5px;
+  position:relative;   
+  border:1px solid #E8E8E8;  
+  border-top:50px solid #fdfd86;
+  font-family:'Comic Sans MS';    
+  font-size:14px;      
+  border-bottom-right-radius: 60px 5px;
+  display:inline-block;    
+   background: #ffff88; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(81%,#ffff88), color-stop(82%,#ffff88), color-stop(82%,#ffff88), color-stop(100%,#ffffc6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* IE10+ */
+background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffffc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+ 
+.postit:after {     
+   content: "";
+  position:absolute;
+  z-index:-1;
+  right:-0px; bottom:20px;
+  width:200px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+-moz-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+ -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+      -o-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+     -ms-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+         transform: matrix(-1, -0.1, 0, 1, 0, 0);
+}
+.postit h4{
+	margin-top:-15px;
+}
+
+.postit a{
+	color:#000;
+	text-decoration:none;
+}
+
+.add-product-info {
+	float:right;
+	margin-top:-30px;
+	font-style:italic;
+}
+.note-content {
+	margin-top: -15px;
+	text-align:left;
+	padding-left: 15px;
+	padding-right: 15px;
+	height:125px;
+}
+.note-author {
+	text-align: right;
+	font-style: italic;
+	font-size: 11px;
+	padding-right:15px;
+}
+#documentation {
+	margin-top:0px;
+}
+
+.flickr_pagination {
+  text-align: center;
+  padding: 0.3em;
+  cursor: default; }
+  .flickr_pagination a, .flickr_pagination span, .flickr_pagination em {
+    padding: 0.2em 0.5em; }
+  .flickr_pagination .disabled {
+    color: #aaaaaa; }
+  .flickr_pagination .current {
+    font-style: normal;
+    font-weight: bold;
+    color: #18a062; }
+  .flickr_pagination a {
+    border: 1px solid #dddddd;
+    color: #0063dc;
+    text-decoration: none; }
+    .flickr_pagination a:hover, .flickr_pagination a:focus {
+      border-color: #003366;
+      background: #18a062;
+      color: white; }
+  .flickr_pagination .page_info {
+    color: #aaaaaa;
+    padding-top: 0.8em; }
+  .flickr_pagination .previous_page, .flickr_pagination .next_page {
+    border-width: 2px; }
+  .flickr_pagination .previous_page {
+    margin-right: 1em; }
+  .flickr_pagination .next_page {
+    margin-left: 1em; }

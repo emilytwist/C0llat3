@@ -1,0 +1,30 @@
+<%= simple_form_for @group, :html => { :class => "form-horizontal product" } do |f| %>
+
+  <% if @group.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@product.errors.count, "error") %> prohibited this group from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @group.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+  <div class="dl-horizontal">
+    <%= f.input :name, label: 'Enter name', hint: 'e.g. Transmitters, Loggers', error: 'You must enter a name' %>
+    <%= f.input :description, label: 'Enter description', hint: 'Enter a description for the group', error: 'You must enter a description for the group' %>
+  </div>
+
+  <div class="form-group">
+    <div class="col-lg-10">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                groups_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

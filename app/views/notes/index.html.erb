@@ -1,0 +1,44 @@
+<%- model_class = Note -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th class="col-md-1"><%= model_class.human_attribute_name(:content) %></th>
+      <th class="col-md-5"><%= model_class.human_attribute_name(:author) %></th>
+      <% if can? [:update, :destroy], @product.notes %>
+      <th class="col-md-1"><%=t '.actions', :default => t("helpers.actions") %></th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <% @product.notes.each do |note| %>
+    <% if can? :read, note %>
+      <tr>
+        <td><%= note.content %></td>
+        <td><%= note.author %></td>
+        <td>
+          <% if can? :update, @product.notes %>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_product_note_path(@product, note), :class => 'btn btn-info btn-xs' %>
+          <% end %>
+          <% if can? :destroy, @product.notes %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      product_note_path(@product, note),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-xs btn-danger' %>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+    <% end %>
+  </tbody>
+</table>
+
+<% if can? :create, @product.notes %>
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_product_note_path,
+            :class => 'btn btn-primary' %>
+<% end %> 
