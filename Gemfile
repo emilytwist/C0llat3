@@ -46,7 +46,7 @@ gem 'simple_form'
 
 gem 'cancancan'
 
-gem 'sprockets', '3.6.3'
+gem 'sprockets', '3.7.2'
 
 gem 'mini_magick'
 
