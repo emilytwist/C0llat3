@@ -58,14 +58,11 @@
               <ul class="dropdown-menu" id="dropdown-background">
                 <li><%= link_to "All Products", products_path  %></li>
                 <li role="separator" class="divider"></li>
-                <li><%= link_to "Transmitters", group_path(1)  %></li>
-                <li><%= link_to "Receivers / Loggers", group_path(4)  %></li>
-                <li><%= link_to "Wired Dataloggers", group_path(5)  %></li>
-                <li><%= link_to "Mini Dataloggers", group_path(6)  %></li>
-                <li role="separator" class="divider"></li>
-                <li><%= link_to "Sensors", group_path(7)  %></li>
-                <li role="separator" class="divider"></li>
-                <li><%= link_to "Software", group_path(8) %></li>
+                 <% if @groups.present? %>
+                  <% @groups.each do |group| %>
+                    <li><%= link_to group.name, group_path(group) %></li>
+                  <% end %>
+                <% end %>
               </ul>
             </li>
             <% if current_user.eltek? %>
@@ -84,12 +81,11 @@
             <ul class="nav nav-list">
               <li><%= link_to "Show all Groups", groups_path %></li>
               <li><%= link_to "Show all Products", products_path %></li>
-              <li><%= link_to "Transmitters", group_path(1)  %></li>
-              <li><%= link_to "Receivers / Loggers", group_path(4)  %></li>
-              <li><%= link_to "Wired Dataloggers", group_path(5)  %></li>
-              <li><%= link_to "Mini Dataloggers", group_path(6)  %></li>
-              <li><%= link_to "Sensors", group_path(7)  %></li>
-              <li><%= link_to "Software", group_path(8) %></li>
+                <% if @groups.present? %>
+                  <% @groups.each do |group| %>
+                    <li><%= link_to group.name, group_path(group) %></li>
+                 <% end %>
+                <% end %>
             </ul>
           </div>
         </div>
