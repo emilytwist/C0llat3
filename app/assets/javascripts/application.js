@@ -16,3 +16,10 @@
 //= require_tree .
 //= require activestorage
 //= require turbolinks
+
+$(document).ready(
+    function(){
+        $("#show").click(function () {
+            $("#delete").fadeToggle();
+        });
+    });

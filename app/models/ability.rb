@@ -11,6 +11,7 @@ class Ability
     if user.distributor?
       can :read, :all
       cannot :read, Note, {visible: false}
+      cannot :read, User
     end
   end
 end

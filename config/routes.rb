@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'users/index'
   get 'welcome/index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
@@ -15,6 +16,7 @@ Rails.application.routes.draw do
   end
 
   root 'welcome#index'
+  match '/users',   to: 'users#index',   via: 'get'
 
   devise_for :users, :controllers => { registrations: 'registrations' }
 end
