@@ -64,9 +64,16 @@ GEM
     capistrano-bundler (1.4.0)
       capistrano (~> 3.1)
       sshkit (~> 1.2)
+    capistrano-passenger (0.2.0)
+      capistrano (~> 3.0)
     capistrano-rails (1.4.0)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
+    capistrano-rbenv (2.1.4)
+      capistrano (~> 3.1)
+      sshkit (~> 1.3)
+    capistrano-yarn (2.0.2)
+      capistrano (~> 3.0)
     capybara (3.11.1)
       addressable
       mini_mime (>= 0.1.3)
@@ -181,6 +188,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    redis (4.0.3)
     ref (2.0.0)
     regexp_parser (1.3.0)
     responders (2.4.0)
@@ -259,7 +267,11 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   cancancan
-  capistrano-rails
+  capistrano (~> 3.7)
+  capistrano-passenger (~> 0.2.0)
+  capistrano-rails (~> 1.2)
+  capistrano-rbenv (~> 2.1)
+  capistrano-yarn
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
@@ -273,6 +285,7 @@ DEPENDENCIES
   pg
   puma (~> 3.11)
   rails (~> 5.2.1)
+  redis (~> 4.0)
   sass-rails (~> 5.0)
   selenium-webdriver
   simple_form
