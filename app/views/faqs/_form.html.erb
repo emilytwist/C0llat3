@@ -9,6 +9,7 @@
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= f.submit "Create FAQ", :class => 'btn btn-primary' %>
+	<%= link_to 'Back', product_path(@product), :class => 'btn btn-danger pull-right' %>
   </div>
 <% end %>

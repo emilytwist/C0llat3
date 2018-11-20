@@ -35,9 +35,9 @@ class NotesController < ApplicationController
 
     respond_to do |format|
       if @note.save
-        format.html { redirect_to product_path(@product), notice: 'Note was successfully created.' }
+        format.html { redirect_to product_path(@product), notice: 'Note was successfully added.' }
       else
-        flash.now[:error] = "Note was not created"
+        flash.now[:error] = "Note was not created."
         render 'new'
       end
     end
@@ -73,6 +73,7 @@ class NotesController < ApplicationController
     def set_note
       @note = Note.find(params[:id])
     end
+
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def note_params
