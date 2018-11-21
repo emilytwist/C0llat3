@@ -23,6 +23,10 @@ class ApplicationController < ActionController::Base
 		products_path
 	end
 
+	def after_invite_path_for(resource)
+		users_path
+  	end
+
 private
 
 	def build_index
