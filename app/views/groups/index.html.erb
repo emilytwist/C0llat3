@@ -19,15 +19,7 @@
         <td><%= group.description %></td>
         <td>
           <% if can? :update, @groups %>
-          <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                      edit_group_path(group), :class => 'btn btn-info btn-xs' %>
-          <% end %>
-          <% if can? :destroy, @groups %>
-          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-                      group_path(group),
-                      :method => :delete,
-                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure you want to delete this group?')) },
-                      :class => 'btn btn-xs btn-danger' %>
+          <%= link_to "Edit", edit_group_path(group), :class => 'btn btn-info btn-xs' %>
           <% end %>
         </td>
       </tr>

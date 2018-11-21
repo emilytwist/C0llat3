@@ -101,18 +101,20 @@
     <%= image_tag("collate_banner.png", :alt => "Collate") %>
   </div>
   <div class="container" id="welcome-container">
-    <span"><%= link_to "Sign up", new_user_registration_path %> | <%= link_to "Log in", new_user_session_path %></span>
+    <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+    <span"><%= link_to "Log in", new_user_session_path %></span>
   </div>
 
 <% end %>
 
     <div id="footer">
       <footer>
-        <span class="pull-left">&copy; Eltek Ltd. 2018</span>
+         <span class="pull-left">&copy; Eltek Ltd. 2018<% if user_signed_in? && current_user.eltek? %> | <%= link_to("Admin Area", users_path) %></span>
+         <% end %>
           <% if user_signed_in? %>
             <span class="pull-right">Logged in as <strong><%= link_to "#{current_user.email}", edit_user_registration_path %></strong> | <%= link_to "Logout", destroy_user_session_path, method: :delete %></span>
-          <% else %>
-            <span class="pull-right"><%= link_to "Sign up", new_user_registration_path %> | <%= link_to "Log in", new_user_session_path %></span>
           <% end %>
       </footer>
     </div>

@@ -20,3 +20,11 @@
     <%= link_to t('.edit', :default => t("Manage group")),
                   group_add_path(@group), :class => 'btn btn-info' %>
   <% end %>
+
+  <% if can? :destroy, @groups %>
+    <%= link_to "Delete", group_path(@group),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => 'Are you sure you want to delete this group?') },
+                      :class => 'btn btn-danger pull-right' %></td>
+  <% end %>
+

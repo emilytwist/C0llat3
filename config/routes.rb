@@ -8,7 +8,9 @@ Rails.application.routes.draw do
   	resources :notes
   	resources :faqs
   	resources :groups
+    resources :uploads 
   end
+
 
   resources :groups do
   	resources :products
@@ -18,5 +20,5 @@ Rails.application.routes.draw do
   root 'welcome#index'
   match '/users',   to: 'users#index',   via: 'get'
 
-  devise_for :users, :controllers => { registrations: 'registrations' }
+  devise_for :users, :controllers => { registrations: 'registrations', :invitations => 'users/invitations' }
 end

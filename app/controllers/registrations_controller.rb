@@ -1,5 +1,15 @@
 class RegistrationsController < Devise::RegistrationsController
 
+  def new
+    redirect_to root_path
+    flash.now[:info] = 'You must request a user account from Eltek'
+  end
+
+  def create
+    redirect_to root_path
+    flash.now[:info] = 'You must request a user account from Eltek'
+  end
+
 def after_sign_up_path_for(user)
 	root_url
 end

@@ -26,12 +26,12 @@ def create
   end
 
 def update
-  @product = Product.find(params[:id])
-	if @group.update(group_params)
-		redirect_to @group
-	else
-		render 'edit'
-	end
+  @product = Product.all
+  if @group.update(group_params)
+    redirect_to @group
+  else
+    render 'edit'
+  end
 end
 
 def add

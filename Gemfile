@@ -47,6 +47,7 @@ end
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'devise'
+gem 'devise_invitable'
 
 gem 'therubyracer'
 gem 'less-rails' 
