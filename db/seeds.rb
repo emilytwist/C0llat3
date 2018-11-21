@@ -5,3 +5,11 @@
 #
 
 User.create(email: "emily2@eltekdataloggers.co.uk", password: "password123", password_confirmation: "password123", eltek: true, first_name: "Admin", last_name: "User", company: "Eltek")
+
+require 'csv'
+
+  CSV.foreach(Rails.root.join('lib', 'seeds', 'seed_test.csv')) do |p|
+    product = Product.new(product_code: p[0], description: p[1])
+    product.save!
+    puts "#{product.product_code} saved"
+  end

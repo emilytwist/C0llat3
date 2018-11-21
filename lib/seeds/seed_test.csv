@@ -1,0 +1,1927 @@
+﻿product_code,description
+/F -T,Add fast transmission to a GenII transmitter
+/F-R,Add fast transmission to a RX250AL
+/xxm,Flood cable for GC60F - add active section (black/yellow twist) at (price shown per meter) - e.g FC/03m = 3m inactive with 3m active section
+1000 Data logger Display Assembly,1000DISP PCB Assembly
+1000 SERIES PARTIAL,1000 SERIES PARTIAL
+1001,Eltek Data Logger - 8 channel-4U + 4V/C
+1001pH,Eltek Data Logger - 8 channel-1001 with pH ranges
+1002,Eltek Data Logger - 8 channel- 8U
+1003B,Eltek Data Logger  - 8 channel- 4K/T + 4V/C with ranges up to 1200 degree C
+1003XAS,Eltek Data Logger  - 8 channel- 4K/T + 4V/C with extra  Pulse
+1004,Eltek Data Logger - 8 channel- 8Pt100
+1005,Eltek Data Logger - 8 channel-8K/T/J
+1006,Eltek Data Logger - 8 channel - 2P + 4P/V/C + 2V/C
+1007,Eltek Data Logger - 8 channel - 8V/C
+1008,Eltek Data Logger - 8 channel -8 B (pulse count)
+1009A,Eltek Data Logger - 8 channel-24 event/digital with screw terminals
+1010,Eltek Data Logger- 8 channel-6 AC V/C + 2 U/AC V/C
+1010X,Eltek Data Logger - 8 channel-6 AC V/C + 2 U/AC V/C
+1016,Eltek Data Logger -16 channel-Universal inputs each V/C- thermistor or thermocouple ( max 1Hz)
+1017,Eltek Data Logger -24 channel-Universal inputs each V/C- thermistor or thermocouple ( max 1Hz)
+1020,Eltek Data Logger -16 channel-12 AC V/C + 4 U/AC V-C
+1020X,Eltek Data Logger -16 channel- 12 AC V/C + 4 U/AC V-C
+1021,Eltek Data Logger -16 channel- 8U + 8 V/C
+1021A,Eltek Data Logger -16 channel- 12U + 4 V/C
+1021B,Eltek Data Logger -16 channel-4U + 12V/C
+1021C,Eltek Data Logger-16 channel-10U + 2V + 4 V/C
+1021D,Eltek Data Logger -16 channel-14U + 2 V/C
+1021pH,Eltek Data Logger -16 channel
+1022,Eltek Data Logger -16 channel-16U
+1023,Eltek Data Logger -16 channel-8K/T/j + 8V/C
+1023A,Eltek Data Logger -16 channel- 12K/T + 4V/C
+1023B,Eltek Data Logger -16 channel-4K/T + 12 V/C-85mm case- 4K/T + 12 V/C
+1024,Eltek Data Logge -16 channel-16P
+1025,Eltek Data Logger -16 channel-16K/T/J
+1025GR,Eltek Data Logger -16 channel-16K/T
+1025MF2,Eltek Data Logger -16 channel-16K/T/J With SP1433 (2 Frequency)
+1026a,Eltek Data Logger -16 channel-4P + 8P/V/C + 4V/C
+1026KT,Eltek Data Logger -16 channel-8P + 4K/T + 4V/C
+1026KTA,Eltek Data Logger -16 channel-8K/T + 2P + 4P/V/C + 2V/C
+1027,Eltek Data Logger -16 channel-16V/C
+1027P,Eltek Data Logger -16 channel-8V/C + 8B
+1028,Eltek Data Logger -16 channel-16B
+1030,Eltek Data Logger -24 channel-18 AC V/C + 6 U/AC V-C
+1031,Eltek Data Logger-24 channel-12U + 12V/C
+1031A,Eltek Data Logger -24 channel-16U + 8V/C
+1031C,Eltek Data Logger -24 channel-20U + 4V/C
+1031P,Eltek Data Logger -24 channel-12U + 4V/C + 8B
+1032,Eltek Data Logger-24 channel-24U
+1033,Eltek Data Logger-24 channel-16K/T + 8V/C
+1033P,Eltek Data Logger-24 channel-8K/T + 8V/C + 8B
+1033XAS,Eltek Data Logger-24 channel-16K/T + 8V/C (MF2)
+1035,"Eltek Data Loggers and Accessories 24 channel   type K,T & J"
+1035KN,"Eltek Data Loggers and Accessories 24 channel   type K,T&N"
+1036A,Eltek Data Logger-24 channel-16P + 8V/C
+1036B,Eltek Data Logger-24 channel-6P + 12P/V/C + 6V/C
+1036KT,Eltek Data Logger-24 channel-8K/T + 8P + 8V/C
+1036P,Eltek Data Logger-24 channel-8P + 8V/C + 8B
+1037,Eltek Data Logger-24 channel-24V/C
+1038,Eltek Data Logger-24 channel-24B
+1043A,Eltek Data Logger-32 channel-24K/T + 8V/C
+1044,Eltek Data Logger-32 channel-32P
+1045,Eltek Data Logger-32 channel-32K/T
+1046,Eltek Data Logger-32 channel-16P + 16V/C
+1046KT,Eltek Data Logger-32 channel-16K/T + 8P+ 8V/C
+1047,Eltek Data Logger-32 channel-32V/C
+1061,Eltek Data Logger-48 channel-24V/C + 24U
+1063,Eltek Data Logger-48 channel-24V/C + 24K/T
+1064,Eltek Data Logger-48 channel-48P
+1065,Eltek Data Logger-48 channel-48K/T
+1066,Eltek Data Logger-48 channel-24P + 24V/C
+1067,Eltek Data Logger-48 channel-48V/C
+1073,Eltek Data Logger-56 channel-48K/T +8V/C
+1081,Eltek Data Logger-64 channel-32V/C + 32U
+1083,Eltek Data Logger-64-48K/T + 16V/C
+1085,Eltek Data Logger-64-64K/T
+1103,Eltek Data Logger-80 channel--48K/T + 32V/C
+1105,Eltek Data Logger-80 channel-80K/T
+1116TA,Logger model 1116TA
+1123,Eltek Data Logger-96 -144 channel-48K/T + 48V/C
+1125,Eltek Data Logger-96 -144 channel-96K/T
+1134,Eltek Data Logger-96 -144 -channel-104Pt100
+1145,Eltek Data Logger-96 -144 -channel-112K/T
+1146KT,Eltek Data Logger-96 -144 -channel-64KT- 32V/C - 16 Pt
+1165,Eltek Data Logger-96 -144 -channel-128K/T
+1185,Eltek Data Logger-96 -144 -channel-144K/T
+12V UPS,12V Uninterrupted Power Supply
+1933XAS,Eltek Data Logger-24 channel-16K/T + 8V/C with MF2
+1M,1 million readings
+2M,2 million readings
+4 point Calibration,SP1428 4 Point Calibration
+451,Eltek Data Logger - 4 channel - universal inputs each V/C- thermistor or thermocouple
+451HV,Eltek Data Logger - 4 channel - universal inputs each V/C- thermistor or thermocouple
+451L,Eltek Data Logger- 4 channel - 451 with additional +/-10mV range
+451pH,Eltek Data Logger - 4 channel - 451 with pH capability (order qty ph-int A/R separately)
+451T,Eltek Data Logger- 4 channel - 451 with min 0.1sec minimum interval
+451WMT,Eltek Data Logger - 4 channel- As 451 with serial input for Vaisala wind monitor
+451WXT,Eltek Data Logger - 4 channel- As 451 with serial input for Vaisala weather monitor
+451XP,Eltek Data Logger - 4 channel - universal inputs each V/C- thermistor or thermocoupl Extra Pulse channel
+452,Eltek Data Logger - 4 channel - 4 pulse only
+453,Eltek Data Logger - 4 channel- 1 event + 8 pulse ( max 5 Hz)
+5 Point Calibration,GC10 Calibration
+500K,500k readings
+651,Eltek Data Logger- 4 channel- Use with 2 x ND350 and 1 ND310 maximum
+851,Eltek Data Logger - 8 channel-Universal inputs each V/C- thermistor or thermocouple
+851L,Eltek Data Logger - 8 channel-851 with additional +/-10mV range
+851VP,Eltek Data Logger - 8 channel-As 851 plus pulse and event
+851WMT,Eltek Data Logger - 8 channel- As 851 with serial input for Vaisala wind monitor
+851WXT,Eltek Data Logger - 8 channel- As 851 with serial input for Vaisala Weather monitor
+ADH001,2 part epoxy quickset 32g
+ADH002,Potting - 250g bag
+ADH003,"Silicone, clear 473 ml"
+ADH004,Super Glue
+ADH005,6.3mm
+ADH006,ENCAPSULANT  POLYURETHANE RESIN
+ADH007,ARADUR HARDENER CGM031
+ADH008,EPOXY RESIN RX771C/NC
+ADH009,Potting - 500g bag
+ADH010,"Silicone Rubber
+Clear"
+Admin Surcharge,Cost of making change to Order
+ADT SD1+,Auto Dialler
+AL,High/Low alarms
+ALL001,5x2500x1250x1.2(cut 173.5 wide)
+Ambersil Paint White,Ambersil White Paint
+ANNUAL CALIBRATION,763 Annual Calibration UV & LUX
+Annual Calibration CMR,Calibration of Manometer by CMR Controls
+Annual Calibration TESTO,Calibration of TESTO  540
+Annual Maintenance,Annual Maintenance of NHM Eltek Monitoring System 01/09/2018 31/08/2019
+ANT001,173 LW-ANT dipole
+ANT002,173 MHz GEN2
+ANT003,433 LW-ANT Dipole
+ANT004,914 LWANT  dipole
+ANT005,Aerial with Magnetic Base
+ANT006,ANT-433-SMA-HEL-50
+ANT007,Magmount for Modem
+ANT008,MFX-SMAMO  GEN2 TX
+ANT009,MFX-SMAMO  GEN2 TX white
+ANT010,Quarter Wave 433SMA MALE RX
+ANT011,Reverse SMA grey
+ANT012,Yagi 3 element
+ANT013,LPRS-ANT-868-FK-SMA
+ANT014,DELTAA1CxSMAMSS23
+ANT015,MAG-BR antenna with 1.0m lead
+ANT016,DIPWW-SMA-male 10M On 433
+ANT017,MK stubby antenna
+ANT018,MINARET MAG+WHIP 868mHz 2M of RG174 Cable SMAM fitted
+ANT019,SMACABMAG 5M SMAM Fitted
+ANT-EXT/SMA5m,5M coaxial antenna extension lead SMA to SMA
+AQ110,Air Quality Transmitter
+AQ110 Assembly,AQ110 PCB Assembly
+AQ110A,Air Quality Transmitter
+ARG100,Aerodynamic Rain Gauge
+BAG001,Bubble 28x23
+BAG002,"For coils 12"" x 16"""
+BAG003,"minigrip PA130 6"" x 9"""
+BAG004,"minigrip SP11 8"" x 11"""
+BAG005,"polythene 10"" x 12"""
+BAG006,"seal again 9"" x 14"" plain"
+BAG007,SELF SEAL BAG225 318 9 x 12.75
+BAG008,SELF SEAL 150 x 225 6 x 9
+BAG009,Bubble Bag 130 x 180
+BAG010,Bubble Bag 230 x 285
+BAG011,Bubble Bag 280 x 360
+BAG012,Jiffy Bag No3
+BAG013,Jiffy Bag No2
+Band No 10,Rubber Band
+Band No 30,Rubber Band No 30
+BAT001,4xAA Battery Holder
+BAT002,6xAA
+BAT003,AA Cambion
+BAT004,AA new RS type
+BAT005,button cell  holder
+BAT006,C cell holder
+BAT007,Open frame (MQW)
+BAT008,PP3 Battery lead
+BAT009,SQ1000 neg terminal
+BAT010,SQ1000 pos terminal
+BAT011,"""AA"" NiMH"
+BAT012,6 x C cell 01201A pack 9V
+BAT013,6 x NiMH 20231B battery pack 7.2 Volts 200mAh
+BAT014,6 x SP 1196 pack 9V
+BAT015,AA rechargeable GP ReCyko
+BAT016,Button Cell Lithium coin cell CR2032
+BAT017,MN 1400 'C' size x10
+BAT018,MN 1500 'AA' GP
+BAT019,PP3 9V alkaline MN 1604
+BAT020,PP3 box
+BAT021,PP3 Lithium
+BAT022,PP3 NiMH rechargeable
+BAT023,"Pro Li-Ion Rechargeable Battery, 2600mAh"
+BAT024,'AAA' GP
+BAT025,4 X AAA Battery Holder
+BATCARR4,battery carrier (4 x AA cells not included)
+BATCARR6,battery carrier (6 x AA cells not included)
+BiTorsion For Pozi Screws,BitTorsion Diamond Hard Bit For Pozi Screws
+BiTorsion For Pozi Screws PZ1,Screwdriver Bit
+BiTorsion For Pozi Screws PZ2,Screwdriver Bit
+BiTorsion For Pozi Screws PZ3,Screwdriver Bit
+BLA001,scalpel blade size 11
+BLA002,scalpel blade size 26
+BP2612,12Volt 12AH Lithium Phosphate Battery  Leads and Charger Kit
+BRA001,GEN2 wall (WBG)
+BRA002,PYRBKE
+BRA003,Solar Panel Bracket
+BRA004,TX11
+BRA005,W/P box inner st.st.
+BRA006,WBO bracket
+BRA007,CB70 wall Bracket
+BRA008,Logger bracket 60mm
+BRA009,Logger Bracket 85mm
+Bulb,Pygmy Bulb
+BUZ001,Piezo Alarm
+CAB001,WT-330-D
+CAB003,15 to 9 Pin PC-Modem serial cable
+CAB004,2 core 7/02
+CAB005,2 core mains White
+CAB006,2 core mini mains black
+CAB007,2 core mini mains grey
+CAB008,2 core PVC 7/0.2mm Compost
+CAB009,2 core rubber
+CAB010,2 core screened
+CAB011,3 core  no screened
+CAB012,4 core  no screened
+CAB013,4 core & screened (TMET)
+CAB014,4 core screened
+CAB015,4 core screened Alpha Wire
+CAB016,6 core 7/0.2mm white
+CAB017,6 core screened
+CAB019,628-7180
+CAB020,Bell wire
+CAB021,Black/Red Fig 8
+CAB022,Coax RG58/CU/100M
+CAB023,DC Extension
+CAB024,DC Extension 2.1mm Lead
+CAB025,EX-011
+CAB026,EX-099
+CAB027,LCDP Splitter
+CAB028,min mic co-ax
+CAB030,Power Cable
+CAB031,"PS2 ext (RS232) 2m,5m,10m"
+CAB032,PTFE White
+CAB033,RHT100 7-1-4C PVC
+CAB034,Splitter PS2
+CAB035,Stranded
+CAB036,stranded 7/0.2mm black
+CAB037,stranded 7/0.2mm blue
+CAB038,stranded 7/0.2mm brown
+CAB039,stranded 7/0.2mm green
+CAB040,stranded 7/0.2mm grey
+CAB041,stranded 7/0.2mm orange
+CAB042,stranded 7/0.2mm red
+CAB043,stranded 7/0.2mm violet
+CAB044,stranded 7/0.2mm white
+CAB045,stranded 7/0.2mm yellow
+CAB046,TX setup
+CAB047,Type K thermocouple cable
+CAB048,Type T cable 7 X 0.2  PTFE  twin twisted
+CAB049,USB to Serial Converter
+CAB050,Water detection cable (01-1836)
+CAB051,Cable Clip
+CAB052,Speaker Cable Grey/Black
+CAB053,WT-330-D IEC WT-330T 7/0.2mm PTFE F/P
+CAB054,IEC Extension Lead
+CAB055,"Stand Screened Cable 
+7/0.2mm"
+Cable Drum,Cable Drum
+Calibration,Traceable Calibration Certificates - any logger type
+Calibration 2 point,2 point Calibration of  Temperature Probe
+Calibration CMP 3,Calibration of CMP 3
+Calibration of sensirion Sensor,Calibration of Sensirion RH & T sensor
+Calibration Rotronic Probe,"UKAS
+Rotronic Probe Calibration
+HygroClip2
+at 35,50,80%RH"
+CAP001,0.47uf 35V
+CAP002,1 mF SM
+CAP003,10 uF 6.3Volt 0805
+CAP004,10 nF SM
+CAP005,10 uF 16V
+CAP006,10 uF 16V  style B
+CAP007,10 uF 16V SM Small
+CAP008,10 uF 35V
+CAP009,100 nF SM
+CAP010,100pf
+CAP011,100pf SM
+CAP012,100uF 16V
+CAP013,100uF 25V
+CAP014,100uF 35V
+CAP016,102 5% poly
+CAP017,102 SM
+CAP018,103
+CAP019,103 5% poly
+CAP020,103 SM
+CAP022,104
+CAP023,104 2.5 pitch blue
+CAP024,104 poly blue/grey square MPU
+CAP025,104 SM
+CAP026,10pF
+CAP027,10uF 16V  0805 type B case
+CAP028,10uF 6.3V 0805
+CAP029,15pF
+CAP030,15pF SM
+CAP031,1uf 16V  SM
+CAP033,1uF 50V SM
+CAP034,2.2 uF 16V
+CAP035,2.2 uF 16v Tant
+CAP036,22 uF 6V SM
+CAP037,220uF
+CAP038,SR201A222JAR 2200pF 5% 100V
+CAP039,22pF
+CAP040,22pF SM
+CAP041,23pF
+CAP042,270 pF
+CAP043,33 pF
+CAP044,331
+CAP045,332 5% poly
+CAP046,334 square
+CAP047,33uF 16V SM
+CAP048,33uF 6V SM
+CAP049,39uF 35Volt
+CAP051,4.7 pF
+CAP052,4.7 uF 16V
+CAP053,4.7uF
+CAP054,47 nF
+CAP055,47 nF SM
+CAP056,47 pF
+CAP057,470 nf SM
+CAP058,470 pf
+CAP059,470 pf SM
+CAP060,470 uF Capacitor
+CAP061,6.8 pF SM
+CAP062,0.68UF
+CAP063,15000UF
+CAP064,103 Square  (1010 ONLY )
+CAP065,22uF Capacitor 1210
+CAP066,0.68uF Capacitor 0805
+CAP067,1uf 35v Sm
+CAP068,47 uF
+CAP069,1 nF
+CAP070,39uF Capacitor
+CAP071,22uF Capacitor  16V 1210
+CAP072,10uF 35Volt 1206
+CAP073,CAP ALU ELEC 220UF 16V
+CAP074,Capacitor 22UF 25V
+CAP075,47uf
+CAR001,GEN2 transmitter box
+CAR002,GL70 - GD47
+CAR003,Large  305 X 229 X 229
+CAR004,Medium  305 X 229 X 178
+CAR005,Repeater etc WPEW40
+CAR006,Small  305 X 229 X 130
+CAR007,Small 1 Kg Pk
+CAR008,Carton 430 x 310 x 300
+CAR009,UN Carton AHG35
+CAR010,Carton ASW31
+CAR011,Carton ADW134
+CAR012,Carton APEW40
+CAS001,1000 series Hire with membrane switch
+CAS002,CMP2 CADLOW  Polycarbonate  120 x 122 x75
+CAS003,Control
+CAS004,Enstow 121609
+CAS005,Enstow 162409
+CAS006,Enstow DPCP 122009G
+CAS007,Enstow small 081206
+CAS008,GC75
+CAS009,GC75 WHITE
+CAS010,GD125
+CAS011,GD47
+CAS012,GD75
+CAS013,GD75 white
+CAS014,GD95
+CAS015,GD95 ALS
+CAS016,GD95 WHITE
+CAS017,GEN 2 Bottom Plastic
+CAS018,GEN 2 Bottom Plastic WHITE
+CAS019,GEN 2 Top Plastic
+CAS020,GEN 2 Top Plastic Probe
+CAS021,GEN 2 Top Plastic Probe WHITE
+CAS022,GEN 2 Top Plastic WHITE
+CAS023,GEN2 Demo
+CAS024,GEN2 Extrusion 63 mm
+CAS025,GEN2 Extrusion 95 mm
+CAS026,GL70
+CAS027,GL70 WHITE
+CAS028,GS125 no holes
+CAS029,GS95
+CAS030,GS95 WHITE
+CAS031,GW47 base
+CAS032,GW47 top
+CAS034,OD1
+CAS035,OD2 larger
+CAS036,Pel1 seal
+CAS037,Pel1(standard size)  Silver with foam
+CAS038,Pel1A(standard Deep)
+CAS039,Pel2(Exlarge)
+CAS040,Powerlog
+CAS041,Receiver
+CAS042,Side painted (pair)
+CAS043,Side unpainted (pair)
+CAS045,SQ1000 front unpainted
+CAS046,Stephenson Screen case
+CAS047,TX Case
+CAS048,"TXUL, MQM"
+CAS049,VTS270
+CAS050,WB6
+CAS051,WBT
+CAS052,WPCP203013G Ensto
+CAS053,SQ1000 Back - painted
+CAS054,SQ1000 Front - painted
+CAS055,SQ1000 Lid - painted
+CAS056,SQ1000 base + lid unpainted
+CAS057,Pelli Case
+CAS058,GSCMP2 Potting Box - Farnell 1094666
+CAS059,Stainless Junction Box - Armorduct STEE/20 (20mm S/S TEE BOX)
+CAS060,EP10 Case
+CAS063,BOX ABS 23 x 54 38mm 1871053
+CAS065,EC10 Case
+CAS066,Peli Case 1450 with foam Yellow
+CAS067,Peli Case 1300 Black No Foam
+CAS068,Peli Case 1300 Yellow No Foam
+CAS069,COVER POTTING BOX For 100x50x25 (1094666)
+CAS070,Siren
+CAS071,Hammond Enclosures
+CAS072,Peli Case 1450 with foam Black
+CAS073,Connection Box SP1431
+CAS074,Pel1(standard size) 1200-000-180   Black with foam
+CAS075,Pel1(standard size) 1200-000-180    Yellow with foam
+CB70,Transmitter with Built-in Littlemore Scientific light sensor (Visible and UV)- RH and T (per GC10)
+CHA001,1000 various
+CHA002,1010
+CHA003,1020
+CHA004,1030
+CHA005,8U
+CHA006,GEN 2 Plate
+CHA007,GEN 2 Plate Insert
+CHA008,GS32 Chassis Drawing 156
+CHA009,GS31 Chassis Drawing Number 157
+CHA010,GS21 Chassis Dwg No 163
+CHA011,GS31 chassis
+CHA012,SRX/GPRS Chassis B90046
+CHA013,GS38/44 Chassis DWG No143 Issue 2
+CHA014,GS62 Chassis DWG 132 issue 2
+CHA015,GS34/42 Chassis DWG 134 issue 2
+CHA016,GS24 Chassis Dwg 144
+CHA017,GDRP Chassis Dwg 146
+CLP/1.5M,GS-CMP2 temperature  transmitter attached to 1.5M lance probe for compost applications
+CLP/1M,GS-CMP2 temperature  transmitter attached to 1M lance probe for compost applications
+CLP/2M,GS-CMP2 temperature  transmitter attached to 2M lance probe for compost applications
+CMP3,PYRANOMETER Solar Radiation
+CMP3 Cable,Part No 2523144
+CoC,Certificate of Conformity
+COI001,Rogowski
+COI002,Mini Rogowski
+COMMISSIONING,Half man day
+CON001,10 way Black
+CON002,10 way IDT
+CON003,2 way IDT Pancon
+CON004,2 way latching conn
+CON005,3 way IDT
+CON006,4 way
+CON007,4 way IDT
+CON008,4 way pcb connector
+CON009,5 way IDT
+CON010,6 way IDT
+CON011,8 Way PCB mounted  (Skanska)
+CON012,Connector Housing
+CON013,Connector M22-7140842
+CON014,Tank Connector
+CON016,6 Way Molex
+CON017,3 way panel IP68 male contacts  solder & C
+CON018,3 way cable plug IP68 female contacts  solder L
+CON019,3 way line socket panel IP68 male contacts  solder & C
+CON020,Alpha sense connector - A4 AFE. Farn 1109794
+CON021,CONN-SIL-2
+CON022,Picoclasp 150mm 28AW mouser 538-79758
+CON023,PCB_TC_CONNECTOR
+CONS001,Post it note
+CONS002,High Lighter pen yellow
+CONS003,Sharpie Pen
+CONS004,HB Pencils
+CONS005,Memo Pad Holder
+CONS006,Eraser
+CONS007,High Lighter Pens
+COV001,15 way D Red
+COV002,15 way Silver
+COV003,25 way Black
+COV004,25 way D Blue
+COV005,25 way D Green
+COV006,9 way D Green
+COV007,9 way D Yellow
+COV008,9 way Silver
+COV009,Green 12 way line connector
+COV010,Green 3 way line connector
+COV011,Green 5 way line connector
+COV012,Green 7 way line connector
+CRV250F,CRV250F Datalogger
+CRY002,32.768 kHz
+CRY003,4.9152 MHz
+CRY004,4.9152 MHz  low profile  (Cookie)
+CRY006,7.3728M
+CRY007,9.8304 Mhz
+CRY008,24576
+CRY009,3.6864 MHz
+CT5,5 amp current clamp
+CT75,7.5AMP current clamp
+Cyan Ink Cartridge,Canon CLI-8C 101432
+Darca Compost software,Software for composting applications
+Delivery,UK Mainland Delivery Charge
+Delivery Charge Eurozone,Eurozone Delivery Charge
+Delivery Charge UK,Mainland UK Delivery Charge
+DELL POWER EDGE,WINDOWS SERVER
+Development,AQ110
+Development CB70,CB70
+Development Sigfox,Sigfox
+DH1,Darca *Heritage Ver 1.0 - administrator licence
+DH1 user,Darca *Heritage Ver 1.0 - additional user licence
+DH2,Darca *Heritage Ver 2.0 administrator
+DH2 dept,Darca *Heritage Ver 2.0 departmental licence
+DH2 user,Darca *Heritage Ver 2.0 additional user licence
+DH2up,Darca *Heritage Ver 1.0 to Ver 2.0 upgrade
+DIO001,12V Zener
+DIO002,15V Zener
+DIO003,1N 4006 or 1N4001
+DIO004,1N 4148
+DIO005,1N 5817
+DIO006,1N 5819
+DIO007,B0520L W
+DIO008,B160-13-F
+DIO010,Bat 54J SM
+DIO011,Bat 54S SM
+DIO012,Bat 85  ( Bat 42  )
+DIO013,Diode Pack
+DIO015,MBR0540T1G
+DIO016,P6KE (P6KE15A)
+DIO017,"Zener, 2V7 BZX79C2V7"
+DIO018,"Zener, 3V9"
+DIO019,"Zener, 5V1 BZX79C5V1"
+DIO020,"Zener, 7V5"
+DIO021,ZXMP3A17E6TA
+DIO022,FDH 333
+DIO023,PMEG3020EJ
+DIO024,DALC208SC6
+DIO025,ESDA6V1SC6
+DIO026,B340A-13-F
+DIO027,BAT54C
+DIS001,GEN2 LCD
+DIS002,GEN2 LCD WINDOW
+DIS003,SQ1000 Display LCD
+DKRF310-XXs-GEN11,Extra small humidity probe
+DL,DARCA LITE
+DP,Darca Plus Version 3.1
+DSEC,Darca Secure Version 3.1 (with SMS grouping) Darca Secure is designed to meet the requirements of FDA 21 CFR Part 11 (applicable to SC250 only
+DSP10-12,Low profile DIN rail mounting AC to12VDc power supply (Manufacturer is TDK)
+Ear Defender,Extreme Ear Defender
+EC10,Transmitter with built-in digital RH and temperature sensors
+Edding Pens,Gel Pens Black
+EE08(RECONDITIONED),RECONDITIONED  EE08 Sensor
+EL6XMIMH,6 x MiMh batteries for RX250AL- RX250ALD or WSR
+EL7.2NIMH,plug-in rechargeable 7.2V MiMh pack for RP250GD- RC250 or GD47
+ELAG-U-VL3-0,Radiant air temperature sensor with 3m lead
+ELCC,AC110/240v transducer - provides an isolated contact closure when powered. Use with GD24- GD34- GC60
+ELCM-K-NL-03-3,Eltek probe-50 x 3.2 dia S.S-K-Thermocouple-2.3 x 1.3mm PTFE-3M Lead-Thermocouple mini plug
+ELCMP2-D-VM-02-7,Eltek standard proble-replacement probe used with CMP2
+ELCMP-U-NP-05-0,PR02-THERMISTOR-3.3-050-5-PFA-99
+ELCMS-K-NL-03-3,Eltek probe-25 x 3.2 dia S.S- K-Thermocouple-2.3 x 1.3mm PTFE-3m Lead-Thermocouple mini plug
+ELCMS-K-NL-05-3,Eltek probe-25 x 3.2 dia S.S- K-Thermocouple-2.3 x 1.3mm PTFE-5m Lead-Thermocouple mini plug
+ELCMS-T-NL-03-3,Eltek probe-25 x 3.2 dia S.S-T-Thermocouple-2.3 x 1.3mm PTFE-3m Lead-Thermocouple mini plug
+ELCMS-T-NL-05-3,Eltek probe- 25 x 3.2 dia S.S-T-Thermocouple-2.3 x 1.3mm PTFE-5m Lead-Thermocouple mini plug
+ELCMS-U-NL-03-0,Eltek probe- 25 x 3.2 dia S.S-Thermistor-2.3 x 1.3mm PTFE-3m Lead-Bare Tail Connector
+ELCMS-U-NL-05-0,Eltek probe- 25 x 3.2 dia S.S-Thermistor-2.3 x 1.3mm PTFE-5m Lead-Bare Tail Connector
+ELCMS-U-VS-03-0,Eltek probe -25 x 3.2 dia S.S-Thermistor-2.1mm dia PVC -3m Lead- Bare Tail Connector
+ELCMS-U-VS-05-0,Eltek probe -25 x 3.2 dia S.S-Thermistor-2.1mm dia PVC -5m Lead- Bare Tail Connector
+ELCM-T-NL-02-3,ELCM-T-NL-02-3
+ELCM-T-NL-03-3,Eltek probe- 50 x 3.2 dia S.S - T-Thermocouple-2.3 x 1.3mm PTFE-3m Lead - Thermocouple mini plug
+ELCM-T-NL-05-3,Eltek probe- 50 x 3.2 dia S.S - T-Thermocouple-2.3 x 1.3mm PTFE-5m Lead - Thermocouple mini plug
+ELCM-U-NL-03-0,Eltek probe-50 x 3.2 dia S.S -Thermistor-2.3 x 1.3mm PTFE - 3m Lead- Bare Tail Connector
+ELCM-U-NL-05-0,Eltek probe-50 x 3.2 dia S.S -Thermistor-2.3 x 1.3mm PTFE - 5m Lead- Bare Tail Connector
+ELCM-U-NL-10-0,Eltek probe- 50 x 3.2 dia S.S -Thermistor-2.3 x 1.3mm PTFE - 10m Lead- Bare Tail Connector
+ELCM-U-VS-03-0,Eltek probe-50 x 3.2 dia S.S -Thermistor - 2.1mm dia PVC-3m Lead - Bare Tail Connector
+ELCM-U-VS-05-0,Eltek probe-50 x 3.2 dia S.S -Thermistor - 2.1mm dia PVC - 5m Lead - Bare Tail Connector
+ELCM-U-VS-10-0,Eltek probe -50 x 3.2 dia S.S -Thermistor - 2.1mm dia PVC - 10m Lead - Bare Tail Connector
+ELCS30-U-VL-10-0,30cm probe with 5mm tube VL cable splash proof
+ELCS-K-NL-03-3,Eltek probe-125 x 4.8mm S.S-K-Thermocouple-2.3 x 1.3mm PTFE-3m Lead-Thermocouple mini plug
+ELCS-K-NL-05-3,Eltek probe-125 x 4.8mm S.S-K-Thermocouple-2.3 x 1.3mm PTFE-5m Lead-Thermocouple mini plug
+ELCS-PT100-CB-03-0,Eltek probe-125 x 4.8mm S.S-PT100-3.8mm dia 4 wire PVC-3m Lead-Bare Tail Connector
+ELCS-PT100-CB-05-0,Eltek probe-125 x 4.8mm S.S-PT100-3.8mm dia 4 wire PVC-5m Lead-Bare Tail Connector
+ELCS-PT100-T.B.A-03-0,Eltek probe-125 x 4.8mm S.S-PT100-TBA-3m Lead-Bare Tail Connector
+ELCS-PT100-T.B.A-05-0,Eltek probe-125 x 4.8mm S.S-PT100-TBA-5m Lead-Bare Tail Connector
+ELCS-T-NL-03-3,Eltek probe-125 x 4.8mm S.S-T-Thermocouple-2.3 x 1.3mm PTFE-3m Lead -Thermocouple mini plug
+ELCS-T-NL-05-3,Eltek probe-125 x 4.8mm S.S-T-Thermocouple-2.3 x 1.3mm PTFE-5m Lead-Thermocouple mini plug
+ELCS-U-NL-03-0,Eltek probe-125 x 4.8mm S.S-Thermistor-2.3 x 1.3mm PTFE-3m Lead-Bare Tail Connector
+ELCS-U-NL-05-0,Eltek probe-125 x 4.8mm S.S-Thermistor-2.3 x 1.3mm PTFE-5m Lead-Bare Tail Connector
+ELCS-U-V-02-DIN,Thermistor temperature probe with 2m cable and DIN plug
+ELCS-U-VL-15-0,Eltek probe-125 x 4.8mm S.S-Thermistor-2.1mm dia PVC-15m Lead-Bare Tail Connector
+ELCS-U-VS-03-0,Eltek probe-125 x 4.8mm S.S-Thermistor-2.1mm dia PVC-3m Lead-Bare Tail Connector
+ELCS-U-VS-05-0,Eltek probe-125 x 4.8mm S.S-Thermistor-2.1mm dia PVC-5m Lead-Bare Tail Connector
+ELDM2-U-NL-10-0,Needle-PR02-Therm-3.3-140-10-PTFE Food Grade
+Element,2500W
+ELEU-K-NL-03-3,Eltek probe-Copper surface tab-K-Thermocouple-2.3 x 1.3mm PTFE-3m Lead-Thermocouple mini plug
+ELEU-K-NL-05-3,Eltek probe-Copper surface tab-K-Thermocouple-2.3 x 1.3mm PTFE-5m Lead-Thermocouple mini plug
+ELEU-PT100-CB-05-00,EU Probe with PT100 Sensor
+ELEU-T-NL-03-3,Eltek probe-Copper surface tab-T-Thermocouple-2.3 x 1.3mm PTFE-3m Lead-Thermocouple mini plug
+ELEU-T-NL-05-3,Eltek probe-Copper surface tab-T-Thermocouple-2.3 x 1.3mm PTFE-5m Lead-Thermocouple mini plug
+ELEU-U-NL-03-0,Eltek probe-Copper surface tab-Thermistor-2.3 x 1.3mm PTFE-3m Lead- Bare Tail Connector
+ELEU-U-NL-05-0,Eltek probe-Copper surface tab-Thermistor-2.3 x 1.3mm PTFE-5m Lead- Bare Tail Connector
+ELEU-U-NL-10-0,Eltek probe-Copper surface tab-Thermistor-2.3 x 1.3mm PTFE-10m Lead- Bare Tail Connector
+ELEU-U-VS-03-0,Eltek probe-Copper surface tab-Thermistor-2.1mm dia PVC-3m Lead- Bare Tail connector
+ELEU-U-VS-05-0,Eltek probe-Copper surface tab-Thermistor-2.1mm dia PVC-5m Lead- Bare Tail connector
+ELEU-U-VS-10-0,Eltek probe-Copper surface tab-Thermistor-2.1mm dia PVC-10m Lead- Bare Tail connector
+ELMi(1.5)-T-NL-03-3,Eltek standard probe - Mineral insulated 1.5mm dia x 1m for -196 degree C.
+ELMI(1.5)-T-NL-10-3,Eltek standard Probe Mineral Insulated
+ELQF-U-BW-1.5-0,Eltek standard probe -Replacement probe used with CMP. (BW = bell wire)
+ELSS-U-VL-03-0,CS Probe for use with Stevenson Screen
+ELSS-U-VL-15-0,CS Probe for use with Stevenson Screen
+ENVELOPE C5,Envelope C5 Pack of 500
+EP10,RH and temperature - built in Built-in digital RH and temperature sensor in out door case
+ETD100,ETD100# Dehumidifier With AC lead  item code BB-DHM100 Kingavon
+Exhibition Costs,MA Exhibition Costs
+Eye Glass,Jewellers Eye Glass
+FC,Flood cable for GC60F- Supplied with 13m (grey) inactive section- cut to length when installing as required
+FC/03,Flood Cable 3 Meter inactive 2 Meter Active
+FIL001,BNX 002-01
+FIL003,power filter
+FIL005,GEN 2 Sensor RH filter A000140
+FIL006,Murata Filter VFS6VD81E221U31A
+FIL007,Fine Mesh 2cm x 2cm
+FIL008,RHT10E Filter
+Fixative,Fixative
+FUS001,1A Axial
+FUS002,1A Fast Acting
+FUS004,1Amp axial Case Fuse
+FUS005,200 mA square
+FUS006,250 mA Wickman
+FUS007,500 mA Wickman
+FUS008,500mA axial
+FUS009,PCB fuseholder
+FUS010,1A Wickman TD Circular
+FUS011,Fuse 3A 20mm
+FUS012,Fuse Holder 3A chassis mounting
+FUS013,1Amp axial Case Fuse Time Delay
+GC04,1 x thermistor input (-40 to 70?C)
+GC06,Temperature - built in Internal plug-in thermistor temperature sensor (-40 to 70?C)
+GC10,RH and temperature - built in Built-in digital RH and temperature sensor
+GC10 Chassis,GC10 Chassis DWG No 133 Issue 3
+GC10W,RH and temperature - built in Built-in digital RH and temperature sensor
+GC11,RH and temperature - built in Built-in digital RH and temperature sensor
+GC13E,Wired socket for 1 x RHT-10E RH/T probe
+GC13G,Wired socket for 1 x RHT-10E RH/T probe
+GC13Hcf,Wired socket for 1 x RHT-10E RH/T probe
+GC13J,For use with EE08 probe
+GC13V,Transmitter with Wired socket for 1 x Vaisala HMP110- HMP155 RH/T (RS485) probe with display
+GC14E,Wired socket for 1 x RHT-10E RH/T probe
+GC14G,Wired socket for 1 x Rotronic HC2-S3 RH/T probe and 2 x thermistor temperature
+GC14J,Wired socket for 1 x E plus E EE08 RH/T probe and 2 x thermistor temperature
+GC14V,Wired socket for 1 x Vaisala RH/T probe (as GD13V) and 2 x thermistor temperature
+GC60,Transmitter with 2 x state inputs ( e.g. door open/close)
+GC60F,Dual input transmitter for use only with leak sensing cable.
+GC60FCF,Transmitter
+GC60Z,GC60 transmitter for Validair 2 state inputs per SP1317
+GC62,Transmitter with 2 x pulse inputs (voltage-free or digital: 250Hz max)
+GC62/GC62A,Transmitter with 2 x pulse inputs (voltage-free or digital: 250Hz max)
+GD04,1 x thermistor input (-40 to 70?C) with display
+GD05X,Temperature - built in Internal plug-in thermistor temperature sensor with display (-40 to 70?C)
+GD06,Temperature - built in Internal plug-in thermistor temperature sensor with display (-40 to 70?C)
+GD10,RH and temperature - built in Built-in digital RH and temperature sensor - with display
+GD10-REFURBISHED,A GD10 that has been refurbished
+GD10W,RH and temperature - built in Built-in digital RH and temperature sensor - with display
+GD11,RH and temperature - built in Built-in digital RH and temperature sensor + external thermistor (-40 to +70?C) with display Tini QG connector not included- order separately - see Replacement Accessories  or specify CONNECTOR option 4 when ordering probe
+GD13E,Wired socket for 1 x RHT-10E RH/T probe with display
+GD13G,Wired socket for 1 x Rotronic HC2-S3 RH/T probe with display
+GD13H,Wired socket
+GD13J,Wired socket for 1 x E plus E EE08 RH/T probe with display
+GD13V,Transmitter with Wired socket for 1 x Vaisala HMP110- HMP155 RH/T (RS485) probe with display
+GD14E,Wired socket for 1 x RHT-10E RH/T probe and 2 x thermistor temperature with display
+GD14G,Wired socket for 1 x Rotronic HC2-S3 RH/T probe and 2 x thermistor temperature with display
+GD14J,Wired socket for 1 x E plus E EE08 RH/T probe and 2 x thermistor temperature with display
+GD14V,Wired socket for 1 x Vaisala RH/T probe (as GD13V) and 2 x thermistor temperature with display
+GD18W,Transmitter - Wind speed and direction
+GD21,Socket for 1 x K /T thermocouple (-200 to +200?C) with display
+GD21AL,GD-21 with visual and delayed audible alarm (High and Low alarm level can be set in Darca)
+GD22ALDM,GD34 with visual and audible alarm
+GD24,Sockets for 4 x K /T thermocouples (-200 to +200?C) or state inputs
+GD24 PCB Kit for SM Assembly,GD24 PCB Kit for SM Assembly
+GD24AL,GD-24 with visual and delayed audible alarm (High and Low alarm level can be set in Darca)
+GD24H,Sockets for 4 x K thermocouples (-200 to +1200?C) or 4 x N thermocouples (-200 to +1300?C) with display
+GD24HV,Sockets for 4 x K/T thermocouples (-200 to +200?C) with relay galvanic isolation and display
+GD24R,Sockets for 4 x R thermocouples (-200 to +2000?C) with display
+GD24RS,Sockets for 4 x R&S  thermocouples (0 to +2000C)
+GD31,Transmitter with 1 x thermistor input (-50 to 150C) with display
+GD32,2 x thermistors inputs (-50 to 150?C) with display
+GD32AL,GD32 with visual (LCD annunciator flash) and audible alarm (see data sheet)
+GD34,4 x inputs- each either thermistor or state with display
+GD34 AL,GD34 with visual and audible alarm (see data sheet)
+GD34 PCB Kit for SM Assembly,GD34 PCB Kit for SM Assembly
+GD34ALDM,GD34 with visual and audible alarm
+GD34ALS,GD34ALS with Large screen and audible alarm
+GD38,8 x inputs each either thermistors (-50 to 150?C) or state inputs with display
+GD40A,GD40A with 4 x isolated inputs with battery pack and MP12U power supply
+GD43,Transmitter with inputs for incubator monitoring.
+GD43E,Wired sockets for 1 x voltage/current input 1 x RHT-10E RH/T probe -  and 1 x thermistor temperature with display
+GD47AC,Transmitter with Built in digital RH- temperature and CO2 (0-5000ppm) sensors- AC powered with display - supplied with MP12U power supply and built in rechargeable battery- Not available in white
+GD47B,Transmitter with built in digital RH- temperature and CO2 (0-5000ppm) sensors with display-BATTERY operation only using AA non rechargeable batteries. Endurance > 6 month at 60 sec Tx interval-  Note: CO2 measured every 5 minutes- irrespective of the transmission interval duration.
+GD52,Wired sockets for 2 x 4 wire RTDs (-100 to +200?C) with display
+GD52H,Wired sockets for 2 x 4 wire RTDs (0 to +300?C) with display
+GD67/GD67A,7 x pulse inputs(voltage-free or digital: 15Hz max) with external power connection with display
+GD68/GD68A,8 x pulse inputs(voltage-free or digital: 15Hz max) with display
+GD72E,Wired sockets for  LS70 light/UV module and RHT10E- RH and T probe with display
+GD81,Transmitter with built in barometric pressure sensor specify range 800-1100mBar
+GD84,Transmitter with built in differential pressure transducer -250 to +250 Pascal for Clean Room applications
+GD900A,As GD90A but configured to connect to 6 x multi-drop Mod Bus connected Rail350. Contact Eltek if using with RC250
+GD900F,Transmitter
+GD90A,Transmitter with serial input for connection to 1 x Rail350 (3 phase) electricity meter providing up to 11 parameters e.g. PF- volts- current per phase- kWh and kvarh. Internal battery. Requires 12VDC e.g. DSP10-12 power.
+GD90C,RALI310
+GDCTPX Assembly,Assembly of GDCTPX SM parts
+GDCTPX PCB Kit Assembly,GDCTPX Kit for SM Assembly
+GDLM10,LM series - Built-in digital RH and temperature sensor with display Can log and transmit simuitaneously
+GDM10,Memory back-up - GDM series- Built-in digital RH and temperature sensor with display
+GDM13E,Memory back-up - GDM series Wired socket for 1 x RHT-10E RH/T probe with display
+GDM21,Memory back-up - GDM series - Temperature - thermocouple (connectors NOT included) - Socket for 1 x K /T thermocouple (-200 to +200?C) with display
+GDM22V,GDM22V 434.525mHz
+GDM24,Sockets for 4 x K /T thermocouples (-200 to +200?C) or state inputs
+GDM24AL,Memory back-up - GDM series - Temperature - thermocouple (connectors NOT included) - GD-24 with visual and delayed audible alarm (High and Low alarm level can be set in Darca)
+GDM31,Memory back-up - GDM series- Built-in digital RH and temperature sensor with display-Temperature - thermistor - 1 x thermistor input (-50 to 150?C) with display
+GDM32,Memory back-up - GDM series- Built-in digital RH and temperature sensor with display-Temperature - thermistor -2 x thermistors inputs (-50 to 150?C) with display
+GDM34,Memory back-up - GDM series- Built-in digital RH and temperature sensor with display-Temperature - thermistor-4 x inputs- each either thermistor or state with display
+GDM38,Memory back-up - GDM series- Built-in digital RH and temperature sensor with display-Temperature - thermistor-8 x inputs each either thermistors (-50 to 150?C) or state inputs with display
+GDM52,Memory back-up - GDM series - Temperature - thermocouple (connectors NOT included) -Sockets for 4 x K /T thermocouples (-200 to +200?C) or state inputs
+GDRP Assembly,Assembly of GDRP PCB Kit
+GJD10-710,Auto Dialler
+GL70,Transmitter with Built-in Littlemore Scientific light sensor (Visible and UV)- RH and T (per GC10)
+GLA001,12mm black
+GLA002,12mm grey
+GLA003,16mm blacl
+GLA004,16mm grey
+GLA005,20mm black
+GLA006,20mm grey
+GLA007,25mm black
+GLA008,25mm grey
+Gloves Disposable,Nitrile Disposable Gloves (L)
+GMT221,Oxygen Sensor
+Green Ink Cartridge,Canon CLI-8 125323
+GRO001,"1/4"" ESTW"
+GRO002,Round 10mm
+GRO003,Round PVC 10.5mm
+GRO004,round PVC 15.5 mm
+GS21,Socket for 1 x K /T thermocouple (-200 to +200?C)
+GS21AL,GS-21 with visual and delayed audible alarm (High and Low alarm level can be set in Darca)
+GS24,Sockets for 4 x K /T thermocouples (-200 to +200?C) or state inputs
+GS24AL,GS-24 with visual and delayed audible alarm (High and Low alarm level can be set in Darca)
+GS31,1 x thermistor input (-50 to 150?C)
+GS32,2 x thermistors inputs  (-50 to 150C)
+GS32AL,GS32 with visual (LCD annunciator flash) and audible alarm (see data sheet)
+GS34,4 x inputs- each either thermistor or state
+GS34AL,GS34 with visual and audible alarm (see data sheet
+GS34R,Wired sockets providing 4 x 0 to 1K 0-10K? and 0-100K?
+GS34R100,Wired sockets providing 4 x 0 to 100?
+GS38,8 x inputs each either thermistors (-50 to 150?C) or state inputs
+GS41Acf,Use with Pyranometer for instantaneous- average (0-1500Wm-2) and cumulative values.
+GS41AV,Wired socket for use with E plus E range of air velocity sensors- see TD1111
+GS42,Transmitter with wired sockets for 2 x voltage/current inputs with sensor supply
+GS42AVE,As GS42- where each input is averaged- requires external 9Vdc for extended operation- see Power Supplies
+GS42E,Transmitter with wired sockets for 2 x voltage/current inputs with sensor supply Pre-configured for external PSU
+GS42HA,Transmitter with 2 x bipolar ranges each +/-5mV only
+GS42HB,Transmitter with wired sockets for 2 x voltage/current inputs with sensor supply
+GS44,Transmitter with wired sockets for 4 x voltage/current inputs- sensor supply and ext. supply switch
+GS-44/SP1051,Transmitter with wired sockets for 4 x voltage/current inputs- sensor supply and ext. supply switch SP1051
+GS44AVE,As GS44- where each input is averaged- requires external 9Vdc for extended operation
+GS44HA,4 x bipolar ranges each +/-5mV only
+GS44HB,4 x bipolar ranges each +/-10mV only
+GS44HC,4 x bipolar ranges each +/-20mV only
+GS44HD,4 x bipolar ranges each +/-50mV only
+GS44HE,4 x bipolar ranges each +/-100mV only
+GS52,Wired sockets for 2 x 4 wire RTDs (-100 to +200?C)
+GS52H,Wired sockets for 2 x 4 wire RTDs (0 to +300?C)
+GS52LTcf,Transmitter with Wired sockets for 2 x 4 wire RTDs (-100 to +200C)conformally coated and able to operate in low temperature environment
+GS72,Transmitter with inputs for light and RH+T sensors
+GSCMP1,IP54 rated temperture transmitter with renewable probe for compost applications
+GSCMP2,IP54 rated temperture transmitter with renewable probe for compost applications
+GSMDH,GSM Modem for use with DH2 to send SMS from Server
+GSM-ext,external antenna with 2M lead on magnetic base for GSM-mdm
+GSM-mdm-com2,replacement lead assembly for GSM modem (Wavecom Fastrack Supreme)
+GSM-mdm-com2X,replacement lead assembly for GSM modem (Wavecom Extend)
+GSMPC,GSM Modem kit with AC power supply for PC end.
+GSMSQ,GSM Modem kit comprising modem- logger cable and external antenna on 2m lead
+GSMSQ1,GSM kit comprising modem- logger cable and antenna (The GSM modem is powered from the loggers external power supply only
+GW47,Built in digital RH- temperature and CO2 (0-5000ppm) sensors- AC powered. (no display)
+GW47DFR,GW47 with display and Fast response CO2 supplied with MP12U power supply.
+HC16B-UK,Data Logger
+HEA001,10 x 2 way
+HEA002,12 way long square pin
+HEA003,14 way 23.5mm
+HEA004,24 way 23.5 mm
+HEA005,24 way SQ1000 25mm
+HEA006,25 way long square pin
+HEA007,3 pin Cookie
+HEA008,6 Way Samtec
+HEA009,Double row
+HEA010,Green 10 way
+HEA012,Green 12 way
+HEA013,Green 2 way mini
+HEA014,Green 3 way
+HEA015,Green 4 way
+HEA016,Green 4 way mini
+HEA019,Green 5 way mini
+HEA020,Green 6 way mini
+HEA021,Green 7 way
+HEA022,Green 8 way
+HEA024,Green 8 Way Mini
+HEA025,Green 8 way mini Screw terminal
+HEA026,Single strip
+HEA027,Single strip turn pin 32 pins
+HEA028,Medium (m)
+HEA029,Small (m)
+HEA030,Heat Shrink
+HEA031,0.1Hdr-3Pin
+HEA032,2 way Header (with Clip)
+HEA033,Slim Male Header 1 X 20 way
+HEA034,0-1X2-HDR+LOCK
+HEA035,3.2mm Heatshrink Black 25m reel 03-0342
+HMP60,Vaisala Intercap
+HP Toner,Q2612X-REM
+ICS001,14 way turned pin
+ICS002,16 way turned pin
+ICS003,28 way turned pin
+ICS004,28 way turned pin narrow
+ICS005,32 way turned pin
+ICS006,40 way turned pin
+ICT001,4028
+ICT002,4051
+ICT003,4052
+ICT004,4066
+ICT006,25AA640 I/SN
+ICT007,25LC 640 (not SM)
+ICT008,25LC040
+ICT009,25LC040/P
+ICT010,25LC040I/SN
+ICT011,25LC640 SM
+ICT012,25LC640-I/SP
+ICT013,4001 (HCF4001BEY)
+ICT014,4013 (Toshiba)
+ICT015,4013 SM
+ICT016,HEF4040BP  *** Not CD4040 ***
+ICT017,4040 SM
+ICT018,4042
+ICT019,4053
+ICT020,CD4053BM
+ICT021,4060
+ICT022,4060 SM
+ICT024,4514BP
+ICT026,4556
+ICT028,512KX8 SRAM SM
+ICT029,74HC00
+ICT030,74HC02
+ICT031,74HC02 SM
+ICT032,74HC08
+ICT033,74HC132
+ICT034,74HC137 (M74HC137BIR)
+ICT035,74HC137 SM
+ICT036,74HC138M  SM
+ICT037,74HC138N
+ICT038,74HC139 SM
+ICT039,74HC139N
+ICT040,74HC14E
+ICT041,74HC14M   SM
+ICT042,74HC165N
+ICT043,74HC174 SM
+ICT044,74HC174N
+ICT045,74HC237
+ICT046,74HC237N
+ICT047,74HC240N
+ICT048,74HC244N
+ICT049,74HC245
+ICT050,74HC273N
+ICT051,74HC273 SM
+ICT052,74HC4053
+ICT053,74HC4514 (MM74HC4514HN)
+ICT054,74HC541N  (MM74HC541N)
+ICT055,74HC573 SM
+ICT056,74HC573N
+ICT057,74HC574 (74HC574E)
+ICT058,74HC574 SM
+ICT059,74HC646 (SN74HCT646NT)
+ICT060,74HC75 SM
+ICT061,74HC109N
+ICT062,7611 DCBAZ SM (V8182LS)
+ICT063,7611 DCPA INTERSIL
+ICT064,7621DCPA
+ICT065,7642
+ICT066,7660 SM
+ICT067,7660CPADIL
+ICT068,7662   Maxim only (ICL7662CPA)
+ICT070,78L05
+ICT071,AD5344
+ICT072,AD5628
+ICT073,AD620 ARZ
+ICT074,AD6526
+ICT075,AD7832
+ICT076,ADM3483ARZ
+ICT077,ADM3491
+ICT078,BA12T 12v Regulator
+ICT079,CD4520BPW
+ICT080,CD74HC14PW
+ICT081,CDP1802BCE
+ICT082,DG408DYZ
+ICT083,DG409DYZ
+ICT084,DG419
+ICT085,DS18B20+
+ICT086,EPROM   M27C512-10F1
+ICT087,FDC6323L
+ICT088,FM25640 FRAM 5V
+ICT089,FM25CL64B-G  FRAM 3V
+ICT090,ICL3222CAZ
+ICT091,ICL3222CBZ
+ICT092,ICL7660CBAZ
+ICT093,INA114AP
+ICT095,INA118
+ICT096,INA118P
+ICT097,INA118u
+ICT098,LM25011
+ICT099,LM27313XMF
+ICT100,LM32224MM
+ICT101,LM324N
+ICT103,LM358N
+ICT104,LM78L09
+ICT105,LMC6061
+ICT106,LMC6611M
+ICT107,LP2950ACZ 3V
+ICT108,LP2950CZ 5V
+ICT109,LPC660AIN
+ICT110,LT1004CZ-1.2#PBF-ND
+ICT111,LT1112
+ICT112,LT1114
+ICT113,LT1114S
+ICT114,LT1129CS8 SM
+ICT116,MAX1202
+ICT118,MAX242CPN+
+ICT119,MAX3222 CPN+
+ICT120,MAX3222 SM  or  (ICL 3222CB)
+ICT121,MAX3241
+ICT122,MAX329
+ICT124,MAX393
+ICT125,MAX398
+ICT126,MAX399
+ICT127,MAX631    ( Now not used in GL )
+ICT129,MAX636
+ICT130,MAX663
+ICT131,MAX691ACPE
+ICT132,MAX761 ESA
+ICT133,MAX761CPA
+ICT135,MAX873 (MAX873BCPA (BEPA)
+ICT136,MC78FC33HT1G
+ICT137,MC78LC30NTRG  SM
+ICT138,MC78LC33NTR 3.3V SM
+ICT139,MC78LC50NTR SM
+ICT140,MCP3204 - CI/SL
+ICT141,MM74HC174N
+ICT142,OP177GP
+ICT143,OP295
+ICT144,OP490
+ICT145,OP747ARZ
+ICT146,OP777 A
+ICT147,PGA204AP
+ICT148,PGA205AP
+ICT149,PIC 12C508 (PIC12C508-04/P)
+ICT150,PIC 16LC66-04I/SP
+ICT151,PIC 18F6520 SM
+ICT152,PIC 18F67K22I/PT SM
+ICT153,PIC 18LF2520-I/SP
+ICT154,PIC 18LF4520
+ICT155,PIC 18LF6520
+ICT156,PIC18LC252-I/SP
+ICT157,RF2436 SR
+ICT159,S17661
+ICT160,TLC2543CN
+ICT161,TS912ID
+ICT162,ULN2003A
+ICT163,ULN2803A
+ICT164,40106
+ICT165,74HCT573PW
+ICT166,LT1129CS8-5#PBF
+ICT167,MCP6072-E/SN
+ICT168,LP2950ACZ-5.0
+ICT169,ADS1248IPW
+ICT170,LT3652EMSE
+ICT171,LM22670MRAD-ADJ/NOPB
+ICT172,TPS72325DBVT
+ICT174,LP2992IM5-2.5/NoPB
+ICT175,SMBJ28CA
+ICT176,74HCT273PW
+ICT177,MC78LC30
+ICT178,GL865
+ICT179,PIC24FJ128GA108
+ICT180,74HC138PW
+ICT181,ICL3222-SSOP20
+ICT182,LY62256SL-55
+ICT183,74H08PW
+ICT184,74HC139PW
+ICT185,ICL7611DCBAZ
+ICT186,TXB0106PWR
+ICT187,MAX791
+ICT188,UL865EUD206T001
+ICT189,25AA1024-I/SM
+ICT190,PIC18F26K22-I/SP
+ICT191,PIC24FJ128GA108-I/PT
+ICT192,SRAM LY62256SL-55LLI 256K
+ICT193,PIC18F67J10-I/PT
+ICT194,AS6C4008-55PCN
+ICT196,MC78LC33NTRG SOT-23-5
+ICT197,LM22670MR-5.0 PSOP-8
+ICT198,M25916
+ICT199,L78L09ACZ
+ICT200,PIC18F67J10-I/PT
+ICT201,PIC18LF2520-I/SP
+ICT202,74HC08PW
+IND001,0.1uH
+IND002,220uH
+IND003,33nH IND
+IND004,33uH
+IND005,56uH
+IND006,68UH
+IND007,DR74-680-R
+IND008,DR74-220-R
+INS001,M3 Self Clinch
+ISL001,Crystal
+JUM001,Jumpers
+LAB001,401
+LAB002,401 serial no
+LAB003,851
+LAB004,8U
+LAB005,C.E. Serial no
+LAB006,polyester GEN 2
+LAB007,Rx
+LAB008,Rx Alarm
+LAB009,Serial no
+LAB010,Various 1000
+LAB011,Various 1020 etc
+LAB013,Canon Back Print Film
+LAB12,LABEL GDRP
+LABOUR,Factory Configuration Charge
+Lance probe 1.5m,"Lance probe steels comprising T handle bar set, probe tip and shaft - overall length 1.5M"
+Lance probe 1m,"Lance probe steels comprising T handle bar set, probe tip and shaft - overall length 1M"
+Lance probe 2m,"Lance probe steels comprising T handle bar set, probe tip and shaft - overall length 2M"
+LC1D,event cable
+LC27,external power cable
+LC68,logger to PC serial lead
+LC68/USB,logger to PC serial or USB lead
+LC68Moxa,Moxa-D5110DC to RX250 variant or SC250 lead
+LC99,Mini Squirrel - Log only device - MS series- Accessories- Transmitter/device (4 pole 2.5mm jack)  to PC serial lead (1.0m)
+LCDP,splitter lead
+LC-IS 1000,opto-isolated RS232 lead
+LC-PC/MDM,replacement lead GSM modem to PC
+LCTX,TX set up from logger lead
+LCTX3,TX set up from PC lead
+LEA001,2.1mm power
+LEA002,GSM-MDM-COM1
+LEA003,GSM-MDM-COM2
+LEA004,GSM-MDM-Com2X
+LEA005,Jack to jack
+LEA006,LC68
+LEA007,LC69
+LEA008,LCTX
+LEA009,LCTX3
+LEA010,LW screen
+LEA011,RX250 AL Lead Set
+LEA012,SMA extension 5m
+LEA013,FIG8 Power Lead 2M long with 3A fuse
+LEA014,Newlink HQ USB to Serial 9 pin(RS-232)
+LEA015,Pre-Crimped Lead
+LEA016,UK Plug with 5A fuse 2M white lead
+LEA017,USB male to USB female
+LEA018,2.5mm 4pole Jack to jack
+LEA019,"AQ110A to EXOTECH
+Sound Level Meter 47750"
+Lead type NL,per additional meter (Maximum is 10M)
+Lead type VL,per additional meter (Maximum is 20M)
+Lead type VS,per additional meter (Maximum is 10M)
+LED001,17-21 VRC
+LED002,3mm ultra bright (green)
+LED003,green/green
+LED004,OS1 Beacon
+LED005,red / green
+LED006,Red 1.8mm
+LED007,Red SM
+LED008,red standard
+LED009,Yellow LED
+LED011,Light Pipe
+LED012,LED RED/GREEN
+LED014,LED RED/GREEN 30/40
+LED015,HI-RED/GREEN 3mm
+LED12,LED RED/GREEN
+LED13,Panel Indicator
+LM10,Logmitter - LM series - Built-in digital RH and temperature sensor with display
+LM13E,Logmitter - LM series - Wired socket for 1 x RHT-10E RH/T probe with display
+LM14E,Logmitter - LM series -Wired socket for 1 x RHT-10E RH/T probe with display plus two thermistor temperature inputs
+LM47B,Logmitter - LM series -Built in digital RH- temperature and CO2 (0-5000ppm) sensors with display
+LOA001,Any Item on loan to a contractor or supplier for evaluation testing etc. Must enter description in Comments section
+Logger Firmware Upgrade,Upgrade to logger Firmware
+LS50,"Littlemore Scientific light ""puck"" with 2M lead"
+LS70,Littlemore Scientific light and UV module with 2M lead
+LW-ANT/SMA,433 Mhz Lightweight indoor/outdoor dipole antenna with 5m lead- SMA plug and mounting hardware
+LW-ANT/SMA-10M,Lightweight indoor/outdoor dipole antenna with 10m lead- SMA plug and mounting hardware
+M4+MK04,SWI006 + SWI008
+Magenta Ink Cartridge,Canon CLI-8M 101433
+MAN001,Darca V.3.2 Booklet
+MAN002,RX250AL
+MAN003,SQ1000/450/850
+Masking Tape,Masking tape
+Maxtec Max250+,02 sensor 0-25%
+MET001,PRO1D
+MET002,A100C Secondary Elec Meter
+MF2,Two 16-bit pulse/frequency inputs
+MF3,Three 16-bit pulse/frequency inputs
+MiniCoil,Rogowski coil 0-1000A (use only with 1010X or 1020X)
+MiniK,Mini thermocouple connector type K (green)
+MINIPL2,2 way transmitter connector- screw down - green with strain relief
+MINIPL4,4 way transmitter connector- screw down - green with strain relief
+MINIPL5,5 way transmitter connector- screw down - green
+MINIPL6,6 way  transmitter connector- screw down - green
+MINIPL8,8 way  transmitter connector- screw down - green
+MiniT,Mini thermocouple connector type T (brown)
+MIS001,amphenol T 6483 000
+MIS003,12 way  6 A
+MIS004,Conformal coating Cookie - MQW - TX
+MIS005,Rubber Strip for PEL1
+MIS006,Klikseal M20 Grey
+MIS007,Klikseal M25 Grey
+MIS008,for iron
+MIS009,Moisture Meter
+MIS010,M2.5
+MIS011,Acetal 12mm
+MIS015,Conformal coatin
+MIS016,Coating
+MIS13,GD84 Inline unvalve
+MIS14,GD84 Panel Mount Valve
+MIS15,430V
+MISC01,Miscellaneous Purchase to be reimbursed
+MOD001,Moxa  N PORT 5110-UK
+MOD002,Wavecom Fasttrack Xtend
+MOD003,NTC-3000-02 3G M2M Serial Modem
+MOD004,Moxa  N PORT 5110-EU
+MOD005,Refurbished Wavecom Fasttrack Xtend FXT009
+Moxa,Moxa D5110AC-EU
+Moxa-D5110,Ethernet convertor with connecting cables and power supply (specify plug type when ordering UK Euro or US)
+Moxa-D5110AC,Moxa-D5110 Ethernet convertor with connecting cable and AC power supply
+Moxa-D5110DC,Moxa-D5110 Ethernet convertor with connecting cable powered from RX250 variants and SC250 loggers only. Cannot be used with LCDP- splitter lead
+MP12INLine,Modify  Powerpax UKR006-57-K 12V DC 1A 12W Part number CPC  PW 03959
+MP12U,Power Supply - AC100-263V -  specify regional connector (UK- Euro- US or R.O.W)
+MP12U-TMET,Power Supply - AC100-263V -  specify regional connector (UK- Euro- US or R.O.W)
+MP24U,100-250VAC to 24VDC  1.25A  power supply. Specify mains plug type with order (UK/Euro/US) SP1351
+MP9U,100-250VAC to 9VDC 9W power supply. Specify mains plug type with order (UK/Euro/US/RSA)
+MS10,Mini Squirrel - Log only device - MS series- RH and temperature - Built-in digital RH and temperature sensor with display
+MS13E,Mini Squirrel - Log only device - MS series- RH and temperature (connectors included)-Wired socket for 1 x RHT-10E RH/T probe with display
+MS14E,Mini Squirrel - Log only device - MS series- RH and temperature (connectors included)- Wired socket for 1 x RHT-10E RH/T probe and 2 x thermistor temperature with display
+MS47AC,Mini Squirrel - Log only device - MS series-CO2- RH and temp (Air Quality)-Built in digital RH- temperature and CO2 (0-5000ppm) sensors- AC powered with display
+MS47B,Mini Squirrel - Log only device - MS series- CO2- RH and temp (Air Quality)- Built in digital RH- temperature and CO2 (0-5000ppm) sensors with display
+MXP,Second pulse count input
+ND Rail 350,R35Mod/V/230 for .33Vcts
+Network LPR Print Server,Network LPR Print Server  PM1115U2
+Non Standard UHF/receiver logger,Configure a receiver/logger for a non standard UHF frequency
+Non standard UHF/repeater,Configure a repeater for a non standard UHF frequency
+Non standard UHF/transmitter,Configure a transmitter for a non standard UHF frequency
+Note Book A5,A5 Note Book
+NUT001,M12 brass
+NUT002,M2.5 Brass
+NUT003,M2.5 Nylon
+NUT004,M3 Self Clinch
+NUT005,M3 Brass
+NUT007,M4 S/S
+NUT008,M2.5 Self Clinch
+NUT009,M5 Nut Stainless Steel
+NUT010,M3 Full Nut ST/ST
+NUT011,M6 Nut and  Bolt
+NUT012,M2.5 Stainless
+NW,Networking - operating several loggers from one PC
+OD04,Wall mounting IP65 case with down ward facing stainless steel temperature probe and GD04cf transmitter conformally coated
+OD-1-1BSE-A,Outdoor Enclosure -IP64 rating -H200 x W120 x D86-1 x CG fitted to base-No additional battery
+OD-1-1RHS-A,Outdoor Enclosure- IP64 rating-H200 x W120 x D86-1 x CG right hand side-No additional battery
+OD-1-2BSE-A,Outdoor Enclosure-IP64 rating H200 x W120 x D86-2 x CG fitted to base-No additional battery
+OD-1-2RHS-A,Outdoor Enclosure IP64 rating-H200 x W120 x D86- 2 x CG right hand side- No additional battery
+OD13E,Wall mounting IP65 case with Stevenson screen-RH/temperature probe and GD13cf  transmitter conformally coated
+OD13E (refurb),Wall mounting IP65 case with Stevenson screen-RH/temperature probe and GD13cf  transmitter conformally coated
+OD13EDC,SP1437
+OD13J Upgrade,Upgrade OD13J to OD13EJ
+OD-1-4BSE-A,Outdoor Enclosure-IP64 rating -H200 x W120 x D86-4 x CG fitted to base-No additional battery
+OD14E,Wall mounting IP65 case with Stevenson screen- RH/temperature probe- 2 x temp inputs- compression gland and GD14Ecf transmitter conformally coated
+OD18W,GD18Wcf transmitter in enclosure
+OD-2-1BSE-A,Outdoor Enclosure- IP64 rating - H240 x W160 x D91 mm-1 x CG fitted to base-No additional battery
+OD-2-1BSE-C,Outdoor Enclosure- IP64 rating - H240 x W160 x D91 mm-1 x CG fitted to base-bracket for 6 x C cell battery pack -type SP1370
+OD-2-1BSE-D,Outdoor Enclosure -IP64 rating - H240 x W160 x D91 mm-1 x CG fitted to base-bracket for 6 x D cell battery pack-type SP1196
+OD-2-2BSE-A,Outdoor Enclosure -IP64 rating - H240 x W160 x D91 mm-2 x CG fitted to base-No additional battery
+OD-2-2BSE-C,Outdoor Enclosure- IP64 rating - H240 x W160 x D91 mm-2 x CG fitted to base-bracket for 6 x C cell battery pack -type SP1370
+OD-2-2BSE-D,Outdoor Enclosure- IP64 rating - H240 x W160 x D91 mm-2 x CG fitted to base-bracket for 6 x D cell battery pack-type SP1196
+OD-2-2RHS-A,Outdoor Enclosure-IP64 rating - H240 x W160 x D91 mm-2 x CG right hand side-No additional battery
+OD-2-2RHS-C,Outdoor Enclosure -IP64 rating - H240 x W160 x D91 mm-2 x CG right hand side-bracket for 6 x C cell battery pack -type SP1370
+OD-2-2RHS-D,Outdoor Enclosure-IP64 rating - H240 x W160 x D91 mm-2 x CG right hand side-bracketfor 6 x D cell battery pack-type SP1196
+OD-2-4BSE-A,Outdoor Enclosure-IP64 rating - H240 x W160 x D91 mm-4 x CG fitted to base-No additional battery
+OD-2-4BSE-C,Outdoor Enclosure-IP64 rating-H240 x W160 x D91 mm-4 x CG fitted to base-bracket for 6 x C cell battery pack -type SP1370
+OD-2-4BSE-D,Outdoor Enclosure-IP64 rating - H240 x W160 x D91 mm-4 x CG fitted to base-bracket for 6 x D cell battery pack-type SP1196
+OD-2-A-A,Outdoor Enclosure-IP64 rating - H240 x W160 x D91 mm- No compression glands fitted- No additional battery
+OD-2-A-C,Outdoor Enclosure- IP64 rating - H240 x W160 x D91 mm- No compression glands fitted- Bracket for 6 x C cell battery pack - type SP1370
+OD-2-A-D,Outdoor Enclosure-IP64 rating - H240 x W160 x D91 mm- No compression glands fitted-bracket for 5 x D cell battery pack-type SP1196
+OD41A,Wall mounting IP65 case with GS-41Acf and extended battery pack and input for pyranometer (0-15mV) use with Kipp and Zonen and Skye Instrument devices and others.
+OD47EAcf,SP1435
+OD62DC,SP1436
+ODLTD,Crack sensor transmitter  GS44cfLDT in outdoor enclosure with battery for one year operation
+ODTLT,Tilt sensor transmitter GS44cfTLT in outdoor enclosure with battery for one year operation
+Open Energy Sensor,Open Energy meter flash pulse sensor and lead with RJ45 termination
+OSA2,On-site audible and visual alarm for use with receiver loggers equipped with Alarm options
+OTB4-sample,transmitter
+Packing Tape (brown),Low Noise Packing Tape
+Packing Tape (Clear),Low Noise Pacing Tape
+Packing Tape (crossweave),Crossweave Packing tape
+Packing Tape (Dispenser),Packing Tape Dispenser
+PAD001,Foam pad
+PAD002,Foam pad tape
+PAD003,Rubber battery box pad GEN2 Foam Bone
+PAP001,A4 reams
+Paper Clips,Metal Paper Clips  Bull Dog
+PC Mouse,Wirless PC mouse
+PCA001,No Plug
+PCA002,No Plug Euro
+PCA003,No Plug R.O.W
+PCB KIT,PCB Kit for assembly
+PCB001,1000 / 16U
+PCB002,1000 display
+PCB005,1000 MPU
+PCB007,1001
+PCB008,1002
+PCB009,1003B
+PCB010,1004
+PCB011,1005
+PCB012,1006
+PCB013,1007
+PCB014,1008
+PCB015,1009
+PCB016,1010
+PCB017,1025
+PCB018,1025X
+PCB019,1027X
+PCB020,1028
+PCB021,401 / 451 ISS 4
+PCB022,4MB1000  ISS 3
+PCB023,801
+PCB024,ELEC MOD
+PCB025,GC-10
+PCB027,GD47
+PCB028,GD-90
+PCB029,GDCTPX
+PCB030,GDEX-X
+PCB031,GL70
+PCB032,GL-72X
+PCB033,GS-11
+PCB034,GS-1142X
+PCB035,GS-12
+PCB036,GS-24
+PCB037,GS-2434
+PCB038,GS-2434X
+PCB039,GS-42
+PCB040,GS-42X
+PCB041,GS-52
+PCB042,GS-62
+PCB043,GS-70
+PCB044,GS-72
+PCB045,MQW8T
+PCB046,PHIF
+PCB047,RFRS232
+PCB048,RHT10D
+PCB049,SRX
+PCB051,WSR
+PCB052,XAS
+PCB053,XBS
+PCB054,XP
+PCB055,GD 24/34 AL
+PCB056,VTS  ISSUE 3
+PCB057,GSCMP2 PCB
+PCB058,EC10
+PCB059,SG10 PCB
+PCB060,AQ110PCB
+PCB061,REPLACE Telet 865
+PCB062,GD84
+PCB063,Stencil for Diatron
+PCB064,SRX-GPRS PCB
+PCB065,SRX PCB Assembly
+PCB066,GL70 Issue 2
+PCB067,GD2434 PCB
+PCB068,Alphasence PCB. A4x3+PID
+PCB069,GDRP PCB
+PCB070,TR38 PCB
+PEL1,Weatherproof box - 60 and 85mm case only
+PEL1A,Weatherproof box - 110 and 135mm case
+PEM7D,Velleman people counter used with GC62
+pH-int,Temperature Probes-pH interface - use with 451pH and 1001pH loggers ((specify 1 x pH-int per pH electrode to be used)
+Photo Cyan Ink Cartridge,Canon CLI8PC 101435
+Photo magenta Ink Cartridge,Canon CLI-8PM 101436
+PIL001,10 m BRASS
+PIL002,12x6 Display Hex Nylon
+PIL003,14 mm BRASS
+PIL004,15 mm BRASS
+PIL005,20 mm BRASS
+PIL006,22x6.5 mm
+PIL007,23.5 mm Brass
+PIL009,5 mm brass
+PIL010,25 mm Brass (cooked)
+PLA001,Aluminium strips 173mm wide
+PLA002,TC copper lugs
+PLA003,Tufnol spacer 1005
+PLA004,Tufnol spacer 1025
+PLA005,W/P box backing plate st.st.
+PLA006,Solder Lug - Farnell 1336209
+Plots,Plots for PCBs
+PLU001,15 way D
+PLU002,15 way D
+PLU003,15 way D  high density
+PLU004,15 way D PCB 1000 series
+PLU005,2.1mm power plug
+PLU007,3 pin locking DIN
+PLU008,3.5mm jack 3 pole metal
+PLU009,"3.5mm jack, locking"
+PLU010,"3.5mm jack, stereo"
+PLU011,4mm insert
+PLU012,4mm shrouded (VTS)
+PLU013,5 pin locking DIN
+PLU014,9 way D
+PLU015,9 way D PCB
+PLU016,amphenol T 3108 001
+PLU017,CM probe tubes
+PLU018,Green 10 way
+PLU019,Green 10 way SR
+PLU020,Green 12 way
+PLU021,Green 2 way mini SR
+PLU022,Green 2 way plug
+PLU023,Green 2 way plug Mini
+PLU024,Green 2 way SR
+PLU025,Green 3 way
+PLU026,Green 3 way SR
+PLU027,Green 4 way
+PLU028,Green 4 way mini
+PLU029,Green 4 way mini SR
+PLU030,Green 4 way SR
+PLU031,Green 5 way
+PLU032,Green 5 way mini
+PLU033,Green 5 way miniSR
+PLU034,Green 5 way SR
+PLU035,Green 6 way
+PLU036,Green 6 way mini
+PLU037,Green 6 way mini SR
+PLU038,Green 6 way SR
+PLU040,Green 7 way SR
+PLU041,Green 8 way
+PLU043,Green 8 way mini
+PLU044,Green 8 way mini SR
+PLU045,Green 8 way SR
+PLU046,thermocouple type K
+PLU047,thermocouple type T IM-T-M type T  ICE
+PLU048,thermocouple type U
+PLU049,Tini-Q-G
+PLU050,Tini-Q-G 3way plug
+PLU051,Tini-Q-G 4way plug
+PLU052,2 way
+PLU053,4 way
+PLU054,4mm Banana Plug Red
+PLU055,4mm Banana Plug Black
+PLU056,RJ12 Plug to RJ12 Plug
+PLU057,CMS Probe tube
+"Polycarbonate backed with 3M,s 467","Lexan Polycarbonate  8B35 175micron Backed with 3M,s 467 Cut to 203 x 305"
+POT001,10 R
+POT002,100 R
+POT003,100K
+POT004,100K small
+POT005,100R Long Pot  CTs
+POT006,10K
+POT007,10K min
+POT008,10k small
+POT009,1K
+POT010,1K min
+POT011,1M single turn TXUL
+POT012,20 R
+POT013,200 R
+POT014,200 R miniture (coils)
+POT015,200K single turn
+POT016,20K
+POT017,2K (T93YA 2K)
+POT018,2K miniature
+POT019,50 R small
+POT020,500 R
+POT021,500K
+POT022,50K (T93YA 50K)
+POT023,50R
+POT024,5K
+POT025,5K small
+POT026,Various multi turn
+PR02-THERMISTOR-3.3-050-5-PFA-99,PR02-THERMISTOR-3.3-050-5-PFA-99
+PRO001,AG-U-VL-1-0
+PRO002,Compost
+PRO003,ELCM-T-NL-02-3
+PRO004,ELCM-T-NL-03-3
+PRO005,ELCM-T-NL-05-3
+PRO006,ELCM-U-NL-03-0
+PRO007,ELCM-U-NL-05-0
+PRO008,ELCM-U-VS-01-0
+PRO009,ELCM-U-VS-03-0
+PRO010,ELCM-U-VS-05-4
+PRO011,ELCS-EX-SIRA-05
+PRO012,ELCS-T-NL-03-3
+PRO013,ELCS-U-VL-02-0
+PRO014,ELCS-U-VL-03-0
+PRO015,ELEU-T-NL-03-3
+PRO016,ELEU-U-NL-03-0
+PRO017,ELEU-U-VS-01-0
+PRO018,ELEU-U-VS-03-0
+PRO019,ELEU-U-VS-05-0
+PRO020,ELMi(1.5)-T-NL-03-3
+PRO022,RHT10E white cap
+PRO023,RHT10E White Probe Tube
+PRO024,S3 hygroclip
+PRO025,GD47 humidity cage
+PRO026,CM 3.2mm x 50mm
+PRO027,CS Probe tube  160 x 4.8mm
+PRO028,Compost DS18B20 2M
+PRO029,CM 3.2mm x 25mm
+PRO030,CS Probe Tube 300  x  4.8mm
+PROJECT cost,Cost of a project
+PSU001,9V
+PSU002,24V
+PSU003,AC/DC ADAPTOR 9V
+PSU004,European plug
+PSU005,GPP10 9V + adaptor
+PSU006,MOXA
+PSU007,MP12U
+PSU008,MP12u 5W
+PSU009,MP12u 5W Euro Adaptor
+PSU010,MP12u 5W UK Adaptor
+PSU011,MP12u Australia Plug
+PSU012,MP12u R.O.W Plug
+PSU013,MP12u S.Africa Plug
+PSU014,MP12u W
+PSU015,UK plug
+PSU016,UK PSU for Fastrack modem xtend
+PSU017,US plug
+PSU018,MP12U-INLINE
+PSU019,Modify  Power pax 12V DC Inline Powersupply UKRoo6-57-K CPC PW 03959
+PSU020,ECM40UT33 AC/DC Open Frame Power Supply
+PVC Tape 19mm,PVC Tape  19mm
+PVC Tape 38mm,PVC Tape 38mm
+PyrBkt,Pole mounting bracket for Skye or Kipp and Zonen pyranometers
+QGMX-1320,TiniQG - for GD11 temperature probe
+Rail310,Accessory for 651 Logger- 3 x single phase secondary energy meter
+Rail350,Accessory for 651 Logger - 1 x 3 phase secondary energy meter
+Raspberry Pi,Raspberry Pi Model B+
+RB12-15,Power Supply- 12V 15Ah rechargeable battery
+RB12-6,Power Supply - 12V 6Ah rechargeable battery
+RC1000,Rogowski coil 0-2000A
+RC250,GenII receiver with RS232 serial output Modbus RTU
+RC250F,GenII receiver with RS232 serial output Modbus RTU
+RE-1-1BSE-A,Rugged enclosure not intended for outdoor use- H200 x W120 x D86mm-1 x CG fitted to base- No additional battery
+RE-1-1RHS-A,Rugged enclosure not intended for outdoor use- H200 x W120 x D86mm-1 x CG right hand side-No additional battery
+RE-1-2BSE-A,Rugged enclosure not intended for outdoor use- H200 x W120 x D86mm-2 x CG fitted to base- No additional battery
+RE-1-2LR-A,Rugged enclosure not intended for outdoor use- H200 x W120 x D86mm-2 x 25mm Klikseal gland L and R of enclosure-No additional battery
+RE-1-2RHS-A,Rugged enclosure not intended for outdoor use- H200 x W120 x D86mm-2 x CG right hand side-No additional battery
+RE-1-4BSE-A,Rugged enclosure not intended for outdoor use- H200 x W120 x D86mm-4 x CG fitted to base- No additional battery
+RE-1-4RHS-A,Rugged enclosure not intended for outdoor use- H200 x W120 x D86mm-4 x CG right hand side-No additional battery
+RE-1-A-A,Rugged enclosure not intended for outdoor use - H200 x W120 x D86mm- No compression glands - No additional battery
+RE-2-1BSE-A,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm-1 x CG fitted to base-No additional battery
+RE-2-1BSE-C,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm - 1 x CG fitted to base-bracket for 6 x C cell battery pack-SP1370
+RE-2-1BSE-D,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm -1 x CG fitted to base-bracket for 6 x D cell battery pack-type SP1196
+RE-2-1RHS-A,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm- 1 x CG right hand side-No additional battery
+RE-2-1RHS-C,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm-1 x CG right hand side-bracket for 6 x C cell battery pack-SP1370
+RE-2-1RHS-D,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm -1 x CG right hand side-bracket for 6 x D cell battery pack-type SP1196
+RE-2-2BSE-A,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm-2 x CG fitted to base-No additional battery
+RE-2-2BSE-C,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm - 2 x CG fitted to base-bracket for 6 x C cell battery pack-SP1370
+RE-2-2BSE-D,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm -2 x CG fitted to base-bracket for 6 x D cell battery pack-type SP1196
+RE-2-2LR-A,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm-2 x 25mm Klikseal gland L and R of enclosure-No additional battery
+RE-2-2LR-D,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm -2 x 25mm Klikseal gland L and R of enclosure-bracket for 6 x D cell battery pack-type SP1196
+RE-2-2RHS-A,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm- 2 x CG right hand side-No additional battery
+RE-2-2RHS-C,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm-2 x CG right hand side-bracket for 6 x C cell battery pack-SP1370
+RE-2-2RHS-D,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm -2 x CG right hand side-bracket for 6 x D cell battery pack-type SP1196
+RE-2-4BSE-A,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm-4 x CG fitted to base-No additional battery
+RE-2-4BSE-C,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm - 4 x CG fitted to base-bracket for 6 x C cell battery pack-SP1370
+RE-2-4BSE-D,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm -4 x CG fitted to base-bracket for 6 x D cell battery pack-type SP1196
+RE-2-4RHS-A,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm- 4 x CG right hand side-No additional battery
+RE-2-4RHS-C,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm-4 x CG right hand side-bracket for 6 x C cell battery pack-SP1370
+RE-2-4RHS-D,Rugged enclosure not intended for outdoor use- H240 x W160 x D91mm -2 x CG right hand side-bracket for 6 x D cell battery pack-type SP1196
+RE-2-A-A,Rugged enclosure not intended for outdoor use - H240 x W160 x D91mm- No compression glands - No additional battery
+REC001,173.25 GII UK
+REC002,GR1-434.225
+REC003,914.5 GII USA
+REC004,RX1-173.250-10
+REC005,GR1-434.525
+REC006,GR1-433.92
+Red Ink Cartridge,Canon CLI-8 125324
+REL001,D pole mini 101-2-A-5/435D
+REL003,S pole mini 101-1A-5/17D
+REL004,Relay SRX PCB 101-1-A-5/2D
+REP001,Repair & Test
+Replacement RX250AL-PCB,RX250AL-PCB
+RES001,100K x 10
+RES002,100K x 9     9 legs
+RES003,100K x4
+RES004,10K x 4
+RES005,10K x8 9leg
+RES006,1K x4
+RES008,1M x4 SM (1206)
+RES009,1M x6
+RES011,1M x 9 leg
+RES012,22K x 6
+RES013,22K x 4 (8 legs)
+RES014,33K x4
+RES016,33R x 4
+RES017,470K x 4
+RES018,470R x 4
+RES019,470R x 4 SM
+RES020,6 legs
+RES021,8 legs
+RES022,9 legs
+RES023,220 Ohm
+RES024,SMRESX4 1K SM
+RES025,100K  0805 Reel of 5000
+RES026,10K 0.1% SM
+RES027,10K Resistor 0805
+RES028,10M
+RES029,"10R 250mW
+0.1%
+Through Hole"
+RES030,10R 5W
+RES031,178RO*
+RES032,180R
+RES033,1K  0805 Reel of 5000
+RES034,1K2 1%
+RES035,1K5 0.1% SM
+RES036,1K5 SM
+RES037,1k78*
+RES038,1M 0805 Reel of 5000
+RES039,20R 5%
+RES040,22K SM
+RES041,25K5 1%
+RES042,270R SM
+RES043,2K SM
+RES044,2K2
+RES046,330K
+RES047,330R SM
+RES048,470K SM
+RES049,470R  0805 Reel of 5000
+RES050,470R SM PACK
+RES051,47R
+RES052,47R SM
+RES053,4K12* SM
+RES054,4K7 SM
+RES055,510K SM
+RES056,51K SM 0805 Reel of 5000
+RES057,59R* SM
+RES058,619R* SM
+RES059,680R SM
+RES060,6K8 SM
+RES061,75R SM
+RES062,7K15 0.1%
+RES063,820R SM
+RES064,9K76
+RES065,Precision 1R (H1K12AQ)
+RES066,Precision shunt R050
+RES067,R270 1%
+RES068,Various
+RES069,Various 1% SM
+RES070,"Various, black 0.1%"
+RES071,1K x4 SM (1206)
+RES072,300 SM
+RES073,"Various, black 0.1% SM"
+RES074,5K1
+RES075,0R18
+RES076,180K
+RES077,511K Resistor 0.1%
+RES078,100R Resistor 1% 0805
+RES079,5K1 Resistor 1% 0805
+RES080,5K6 Resistor MF25 0.25W 1%
+RES081,15K8 Resistor 0.1%
+RES082,10K Resistor 0.1%
+RES083,Resistor 2k21 0.1%
+RES084,300R
+RES085,OR18
+RES086,"10 ohm, MCWF08U Series, 100 V, Thin Film, 0805 [2012 Metric], 100 mW"
+RES087,"hrough Hole Resistor, 300 ohm, MF25 Series, 250 mW, ± 1%, Axial Leaded, 250 V"
+RES088,1M x 8
+RES089,2K2 Resistor  0805 Reel of 5000
+RES090,1K Resistor 1% 250mW
+RES091,3K3 Resistor 1%
+RES092,Resistor 348R 0.1% 0805
+RES093,Resistor 1K5 0.1% 0805
+RES094,Resistor 7K15 0805 0.1%
+RES095,300R Resistor 0805
+RES096,0R  0603 5000 Reel
+RES097,"1K5 Resistor
+250mW
+0.1%
+Through Hole"
+RGB-1,Rain Gauge Baseplate for ARG100
+RHT10DF Stems,RHT10F Stems DWG 258  issue 1
+RHT10E/3m,Eltek RH and T detachable probe with 3m lead. (For other lead refer to Probe price list)
+RHT10-E02.0,RHT10E RH and temperature probe-plug fitted - 2m
+RHT10-E-10.0,RHT10E RH and temperature probe-plug fitted - 10m
+RHT10-E-3.0,RHT10E RH and temperature probe-plug fitted - 3m
+RHT10-E-4.0,RHT10E RH and temperature probe-plug fitted- 4m
+RHT10-E-5.0,RHT10E RH and temperature probe-plug fitted - 5m
+RHT10-E-6.0,RHT10E RH and temperature probe-plug fitted - 6m
+RHT10-E-7.0,RHT10E RH and temperature probe-plug fitted - 7m
+RHT10-E-8.0,RHT10E RH and temperature probe-plug fitted - 8m
+RHT10-E-9.0,RHT10E RH and temperature probe-plug fitted - 9m
+RHTCAP1,replacement protective cap and filter
+RP250GD,Repeater with display- MP12U AC power supply- rechargeable batteries and detachable antenna
+RP250GDDA,Repeater with display- MP12U AC power supply- rechargeable batteries and dual antenna to SP1145
+RP250GDF,Repeater with display- MP12U AC power supply- rechargeable batteries and detachable antenna 434.525MHz
+RS232/2M,2M LC68 lead extender
+RS232/USB,RS232 to USB convertor
+RX250AL,Receiver Logger with alarm and text messaging (order GSM modem separately)
+RX250ALD,RX250AL with dual alarm contact output
+RX250-ALP,Receiver Logger with alarm  Paired
+RX250IV,"Receiver logger for in vessel, but not exclusively, in vessel composting systems"
+RX250WR,"Receiver logger for windrow, but not exclusively, in vessel composting systems"
+Safety Sign,Fire exit sign
+SC250,Secure Receiver Logger with alarm and text messaging (order GSM modem separately)
+SC250UP,UPGRADE- GenII Loggers and Receivers - To upgrade SC250 for SMS grouping (replacement Eprom) and upgrade Darca Secure
+SCL15 (50/100),SCT-30 30A
+SCL16 (50/100),SCL 16 (50 or 100A) 16mm hole size - specify range when ordering
+SCL8/5,Accessory for 651 Logger- 5A clip on style CT-8mm aperture
+SCR001,DIN socket 2 x 1/4 pan posi
+SCR002,Display 4 x 1/4 pan posi
+SCR004,GEN 2 Pan head
+SCR005,M 2.5 x 6
+SCR006,M2.5 x 40 ST/STL Soc cap
+SCR007,M2.5 x 20 PAN (GL70)
+SCR008,M2.5 x12 Nylon
+SCR009,"M2x6, pk 200 (GL70)"
+SCR010,M3 x 12 csk
+SCR011,M3 x 8 csk
+SCR012,M3x16 csk
+SCR013,M3x25 Pan Head Slotted
+SCR014,M3x35 Slot ST/STL
+SCR015,"M3x6,pan,posi,st.st."
+SCR016,M4/12 S/S
+SCR017,M5x20 brass
+SCR018,GEN 2 CSK
+SCR019,Screwdriver Pack
+SCR020,M4/16 S/S
+SCR021,M5 x 10mm Stainless Steel
+SCR022,POZI No4 x 0.375 Countersunk head
+SCR023,M2 x  8mm Stainless Steel CSK Cross Head
+SCR024,Pozi Screw S/Steel 3.5 x 20mm
+SCR025,M2.5 x 6mm Pan
+SCR026,M2.5 x 16mm Pan
+SCR027,M6 wood Screw
+SCT16,(50/100A) specify CT range at time of order-16mm aperature
+SCT19,(50/150A) specify CT range at time of order - 19mm aperature
+SCT19 (50/150),SCT 19 (50 or 150A) 19mm hole size - specify range when ordering
+SCT32 (400),SCT 32 (400A) 32mm hole size
+SCT32/400A,400A - 32mm aperature
+SCT51 (800),SCT 51 (800A) 51mm hole size
+SCT51/800A,800A - 51mm aperature
+Sellotape,Sellotape
+SEN001,50A CTs
+SEN003,CO2
+SEN004,HCLA02X5EU - Differential Pressure sensor.
+SEN005,EE08
+SEN006,EE660
+SEN009,Light only
+SEN010,SHT75 temp and humidity
+SEN011,Surface Wetness
+SEN013,WxT 520
+SEN014,Light & UV in case
+SEN015,763 Light Sensor Uncased Unit
+SEN016,OPTICAL UTILITY  METER LED PULSE SENSOR
+SEN017,DAVIS 6410 ANEMOMETER
+SEN018,RHT10D Stem DRG 258 Issue 1
+SEN019,Sensor Housing
+SEN020,"3-AFE+PID:NO2,(co,SO2 or H2)"
+SEN021,Nitrogen Dioxide A Sensor NO2-A43F
+SEN022,Carbon Monoxide A Sensor CO-A4F
+SEN023,PID-AH Rev 2 VOCs 1ppb/50ppm
+SEN024,Optical Particle Counter  1-2.5-10
+SEN025,Modification of 3-AFE+PID PCB For CO to read 2V output at 500 ppm with 5V supply
+SEN026,Test Data  Test Data for PID-AH2 Sensor
+SEN027,Split Core Hall Effect Sensor CYHCT-C2TV-(-50Ato +150A)-32P with Phoenix Connector
+SEN028,HuksefluxHFP01 5M
+SEN029,HuksefluxHFP01 10M
+SEN030,GMP252-25C0B1N CO2 probe for ppm measurements (0-5000ppm)
+SEN031,SKL-2620 HOPL  Voltage output 0-3V  Par Quantum Sensor with 3m cable
+SEN032,12-9V � 12-9V regulators
+SEN033,EE660-V7xBDxxM � Duct Mounted Transmitter
+SEN034,WMT52 Ultra Sonic Wind Sensor
+SEN035,OZONE Sensor OXA431
+SEN036,SKL 2620 HOPL PAR Quantum sensor Voltage Output 0-3V With 3M Cable
+SEN037,CYHCT-C2TV-B50A-82P Split Core Hall Effect DC Current Sensor Input Current -50A-0-+50A DC Output Voltage 0-5V-10V DC Power Supply +12VDC  Accuracy 1.0%
+SEN038,+500A DC Output Voltage 0-5V-10V DC Power Supply +12VDC  Accuracy 1.0%
+SEN039,HuksefluxHFP01 15M
+SERVICE,Service and / or calibration
+Service/Project Labor,Clearminds Project Labor cost
+SG10,RH and temperature - built in Built-in digital RH and temperature sensor
+SHT75/new,NEW replacement sensor
+SHT75/OD,NEW replacement sensor with added environmental protection
+SHT75/recon,RECONDITIONED replacement sensor
+SHT75-Ext-1M,SHT75 1m extension lead (for calibration applications)
+SHT75NEW,SHT75 new replacement sensor
+SIM001,Vodafone Sim Card Pack
+SLE001,"Black, rubber"
+SM150T,DELTA Soil Moisture Sensor with Lead
+SMS-text,High/Low alarms and SMS texting on alarm
+SOC003,15 Way Solder Lug
+SOC004,15Way PCB (1000MPU)
+SOC005,2.1 mm PCB power x 10
+SOC006,2.1mm power chassis socket
+SOC007,24 way SQ1000
+SOC008,3 pin circular panel DIN
+SOC009,3 pin DIN PCB
+SOC010,3.5mm jack line
+SOC013,3.5mm stereo PCB
+SOC014,3.5mm stereo small PCB
+SOC015,4 way amphenol
+SOC016,4mm shrouded (VTS)
+SOC017,5 pin DIN PCB
+SOC018,5 way DIN
+SOC019,6 pin mini DIN PCB
+SOC020,6 way (Transmitter display)
+SOC021,6 way Molex promgramming
+SOC022,7 way amphinol
+SOC023,9 way D for use with power log
+SOC024,9 way D PCB socket
+SOC025,9 way D solder
+SOC026,9 way mini DIN
+SOC027,GEN 2 Display Socket
+SOC028,Green 12 way ext socket
+SOC029,Green 3 way ext socket
+SOC030,Green 7 way ext socket
+SOC032,Sim card holder
+SOC033,SMA
+SOC034,SMA reverse jack
+SOC035,Square BNC
+SOC036,thermocouple type K
+SOC037,thermocouple type U pcb
+SOC038,Tini-Q-G
+SOC039,Tini-Q-G 3 way
+SOC040,Tini-Q-G 4 way
+SOC041,SHT PCB Socket
+SOC042,4 Pole Jack Socket
+SOC044,RJ45 Socket
+SOC046,Socket With Crocodile Clips
+SOC047,Cable extension lead of RG174 with SMA female bulkhead fitting. Badland order number 25344.
+SOC048,PCB Mount Jack Socket
+SOC049,Jack Socket Assmann
+SOC050,RJ11 Socket LEDFEC
+SOC051,SMA Bulk Head Female RG174  x  180mm with Inline SMA Male
+SOC052,RJ12
+SOC43,Remote Control Socket
+SOC44,RJ45 Socket
+SOC45,RJ45 Socket Module Block
+Soder-wick,Desoldering Braid
+SOL001,250g 0.46mm 60/40
+SOL002,250g 0.7mm Lead free
+SOL005,Small tips new irons
+SOL006,PTAA7 old iron
+SOL007,Desoldering Iron tips
+Solder Trap Filter,Pace Solder/Flux Trap 1309-0054-P10
+Sound Level Meter,EXTECH 407750 Sound Level Meter With PC interface Cable
+Sound Meter,Extech 47750
+SP1118,1 x Battery lead BAT008 6 x AA battery 1 x Battery Holder BATCARR4
+SP1196,Spare battery pack - SP1196 9Vdc 6 x D cell arranged in 2 rows of 3 welded- heat shrink and connector - size 120 x 105 x 36mm (capacity >10Ah)
+SP1291,RC250
+SP1340,SP1340 7.5Vdc 5 x D cell (1 x row) welded- heat shrink and connector - size 166 x 60 x 36mm (capacity > 10Ah)
+SP1370,Spare battery pack- SP1370 (was 01201A) 9Vdc 6 x C cell (1 x row) welded- heat shrink and connector - size 155 x 53 x 26mm (capacity > 6Ah)
+SP1376,1010 to 1010X upgrade (return to Eltek)
+SP1377,1020 to 1020X upgrade (return to Eltek)
+SP1396,RC250 With 2.2 Firmware GenII receiver with RS232 serial output Modbus RTU
+SP1418,Upgrade from RX250AL to SRV250
+SP1424,Peli Case 1300
+SP1426,Pole and Fixing
+SP1427,Open Energy LED pulse senor interface and 9 to 5V micropower regulator
+SP1429,RX250AL Service and Firmware upgrade
+SP1430,ELCMP-U-NP-05-0 50mm Stainless Steel Probe With 6mm taper to point U Thermistor  Submersible with 5M PFA Lead Terminated with baretail
+SP1431,Custom WBR housing to allow alternate 110/240V ac input- as per OTB spec.
+SP1433,1025AXS XAS (MF2) on XBS pcb
+SPA001,TMET solar panel
+SPA002,Squirrel display
+SPA003,TX display
+SPA004,10mm Spacer
+Sprit Level,Sprit Level
+SP-TMET2,Solar Panel (10W) and mounting bracket with 2M lead - sized for temperate climates
+SQ/RS485,For RS485 Modbus additionally specify at time of order the module type
+SRV250,Receiver logger with alarm text messaging and GPRS communications
+Staple Gun,34-2575
+Staple Remover,Staple Remover
+Staples No.16,Staples No.16
+STDPL10,Replacement standard connectors with strain relief -10 Way
+STDPL3,Replacement standard connectors with strain relief - 3 Way
+STDPL4,Replacement standard connectors with strain relief -4 Way
+STDPL5,Replacement standard connectors with strain relief -5 Way
+STDPL6,Replacement standard connectors with strain relief -6 Way
+STDPL7,Replacement standard connectors with strain relief -7 Way
+STDPL8,Replacement standard connectors with strain relief -8 Way
+STORAGE CRAFT,Shadow Protect
+StripBoard,StripBoard 34-0515
+STV-SCN RHT10E,5 disc Stevenson screen with stainless steel backet
+Sub-Contract Labour,Sub-Contract Labour
+Subject Dividers A4,Subject Dividers A4
+suffix /LT/4,Supply a transmitter with a 4 x Energiser AA-L71 battery pack - option cf included - The transmitter is tested at low temperatures.
+suffix /LT/6,Supply a transmitter with a 6 x Energiser AA-L71 battery pack - option cf included - The transmitter is tested at low temperatures.
+suffix cf,Add conformal coating to a transmitter
+SWI,Switch pull cord
+SWI001,Eltek case front membrane
+SWI002,miniature reset switch
+SWI004,single pole rgt angle min MPU
+SWI005,miniature reset switch  SM 4mm
+SWI006,REED SWITCH  MK04-1A66B-500W
+SWI007,REED SWITCH MK04-1A66C-500W
+SWI008,M04 Sealed Magnet
+SWI009,Eltek case front membrane - SRV250
+SWI010,SRV250-Start
+SWI011,miniature reset switch  SM 5mm
+SWI012,1 way Switch
+SWI013,2 Gang
+SWI014,"Lovato DPDT
+3 Position Switch"
+SWI015,Lovato DPDT 3 Position Switch
+SWS,Surface Condensation sensor ( use with GS42 or GS44) - see TU1039 - Campbell Scientific 237F wetness sensor with 4m lead. Connector is not included.
+SXD10/5,0-10A CT max 16mm cable dia. with 1m lead
+SXD100/5,0-100A CT max 16mm cable dia. with 1m lead
+SXD20/5,0-20A CT max 16mm cable dia. with 1m lead
+SXD30/5,0-30A CT max 16mm  cable dia. 15mm with 1m lead
+SXD5/5,0-5A CT max 8mm cable dia. with 1m lead
+SXD50/5,0-50A CT max 16mm cable dia. with 1m lead
+TAG001,Copper tag probe EU
+TAPE Black on white,TZE-N221 9mm Black on white
+TER001,"4mm screw, black"
+TER002,"4mm screw, red"
+TER003,1.02mm dia
+TER004,Terminal Block Wire-to-Board
+TFO001,VTS
+THE001,BCB21061
+THE002,"UUA 32J98, 2K"
+Thinners (Acrylic),"UAT05L -  Thinner, Acrylic Conformal Coating Thinners, HPA / APL / TRV, Can, 5 L"
+TIE002,100x2.5 mm
+TIE003,250 mm
+TIE004,295 mm
+TIE005,300 mm Black
+TIE006,370 mm
+TIE007,plastic (natural) x 100
+Timeswitch,24 Hr time switch
+TMET,Transmitter with wired sockets for use with Vaisala weather or wind speed sensor- inputs for
+TOO001,Punch Down Tool
+Tooling,Tooling for PCBs
+TR38,"Display transmitter with 8 inputs for use with Lance probes and thermistor sensor,"
+TRA002,2N3904
+TRA003,2N3904
+TRA004,2N3906
+TRA005,BSN20
+TRA006,BSS84TR
+TRA007,BUZ11F1
+TRA008,DTA 123JKA146 reel of 3000
+TRA009,DTC123JKAT146
+TRA010,FQU11P06
+TRA011,MMBT2222ALT1
+TRA012,RFD14N05
+TRA013,TS78L05CT
+TRA015,ZVN330
+TRA016,ZVN3306A
+TRA017,ZVP2106A
+TRA018,ZXMP3A17E6TR
+TRA019,ZXT13P12DE6
+TRA020,BSS138TR
+TRA021,was RFD15P05SM now FQU11P06
+TRA022,SI2333CDS
+TRA023,SI2333CDS-T1-GE3
+Trend Micro Business Security Additional seats,Trend Micro Business Security Part#CS00873032
+Trend Micro Business Security RNW,Trend Micro Business Security Part#CS00873489
+TRM002,GT1-433.92
+TRM003,434  transmitter GEN2 3V
+TRM004,434  transmitter GEN2 5V
+TRM005,914.5 transmitter GEN2 3V
+TRM008,433 other freq
+TRM009,433 receiver
+TRM010,434 GEN2 5V
+TRM011,434GEN2
+TRM013,eRIC-SIGFOX MODULE
+TRM014,TX1-173.250-10
+TRM11,GR1-434.525
+TRM12,GT1-434.525-3V
+TUB001,"blk.neoprene 1/4""IDx1/8""W 1M"
+UHFFlexi/Mag/SMA,flexi antenna on magnetic base with 2M lead with sma connector 434.225Mhz
+UHFFlexi/SMA,flexi antenna for receiver/logger- repeater or transmitters 434.225Mhz L= 167mm
+UHFStub/SMA,stubby antenna for transmitters 434.225Mhz L=75mm
+UPGRADE,refer to comments for details
+Upgrade 1000SC,Upgrade 1000SC to SC250 Supply with DARCA Secure V3.0 LCTX3 UHF antenne Logger to work at 443.225Mhz
+USB Print Server,USB Port Fast Ethernet  Print Server
+VEL001,hook 1M
+Velcro heavy Duty,Velcro Heavy Duty
+VHF 173.250Mhz/receiver,Configure a receiver for the standard VHF frequency 173.250Mhz
+VHF 173.250Mhz/repeater,Configure a repeater for the standard VHF frequency 173.250Mhz
+VHF 173.250Mhz/transmitter,Configure a transmitter for the standard VHF frequency 173.250Mhz
+VHF etc/cf,Add conformal coating and configure a transmitter standard VHF frequency 173.250Mhz
+VOL001,MC78L05 ACPRPG
+VOL002,78L09
+VSSNDCO2,CO2 0-20%  GMP251
+VTS270,Voltage transducer
+Wall Plug,Economy Wall Plugs
+WAS001,M2.5
+WAS002,M3 shakeproof x250
+WAS003,M5/25 S/S
+WB0,Two piece  bracket - logger is captive
+WB6/4,Pole or wall hanging outdoor enclosure with 4 glands
+WB6/8,pole or wall hanging outdoor enclosure with 8 glands
+WB60,"""U"" stowage wall bracket (depth is 60mm) logger wall bracket (fixing screws are not included)"
+WB85,Stowage for 85mm logger
+WBG,Tamper-resistant wall bracket for all GenII transmitters except TMET and GW47
+WBO,2 piece wall bracket for captive data logger (fixing screws are not included)
+WBR,Indoor enclosure (300 x 220 x 130)mm  to house RX250AL and GSM/Moxa options
+WBRCMP,"Outdoor, weather proof enclosure for TR38"
+WBR-OTB,Custom WBR housing to allow alternate 110/240V ac input- as per OTB spec.
+WBT,IP65 outdoor enclosure with pole mount bracket for use with TMET only
+WBT/AQ,IP65 outdoor enclosure with pole mount bracket for use with AQ110
+WBT/OTB,Custom WBR housing to allow alternate 110/240V ac input- as per OTB spec.
+White Board Pens,Pens  Pack of 6
+WSR16C,WSR-wireless sensor receiver 16 x analog outputs (4-20mA)
+WSR16V,WSR-wireless sensor receiver 16 x analog outputs (0-5VDC)
+WSR8C,WSR-wireless sensor receiver 8   x analog outputs (4-20mA)
+WSR8V,WSR-wireless sensor receiver 8   x analog outputs (0-5VDC)
+WXT530 series,Vaisala weather (wind speed/direction/precipitation/barometric pressure/RH and T) sensors
+WXT532,Vaisala weather (wind speed/direction/precipitation/barometric pressure/RH and T) sensors
+WXT535,Air pressure Temperature Humidity Rainfall
+WXT536,Vaisala weather (wind speed/direction/precipitation/barometric pressure/RH and T) sensors
+XD-V5,0-200A CT max 16mm cable dia. with 1m lead
+Yellow ink Cartridge,Canon CLI8Y 101434
