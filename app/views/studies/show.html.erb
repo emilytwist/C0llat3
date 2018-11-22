@@ -9,21 +9,20 @@
 </div>
 <div class="dl-horizontal">
   <% if @study.products.present? %>
-  <h4>Products used in this case study:</h4>
+  <h5>Products used in this case study:</h5>
+  <% if can? :update, @studies %>
+  <%= link_to t('.edit', :default => t("Add products")),
+                  study_add_path(@study), :class => 'add-product-info' %>
+  <% end %>
     <% @study.products.each do |product| %>
         <dt><%= link_to product.product_code, product_path(product) %></dt><dd><%= truncate(product.description, :length => 70, :separator => ' ') %></dd>
     <% end %>
   </ul>
+  <% elsif can? :update, @studies %>
+    <p>Click "Add products" to link products to this case study.</p> 
   <% else %>
-    <p>Click the "Add products" button to link products to this case study.</p> 
   <% end %>
 
-
-
-  <% if can? :update, @studies %>
-   <br /> <%= link_to t('.edit', :default => t("Add products")),
-                  study_add_path(@study), :class => 'btn btn-info btn-sm' %>
-  <% end %>
 </div>
 
 <div id="study-links">
@@ -34,14 +33,14 @@
   <% end %>
   <% if can? :update, @studies %>
 <%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_study_path(@study), :class => 'btn btn-info' %>
+              edit_study_path(@study), :class => 'btn btn-info delete' %>
   <% end %>
   <% if can? :destroy, @studies %>
 <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
               study_path(@study),
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-              :class => 'btn btn-danger', :id =>'delete' %>
+              :class => 'btn btn-danger delete' %>
   <% end %>
 </span>
 </div>              

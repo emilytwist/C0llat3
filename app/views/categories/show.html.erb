@@ -24,14 +24,19 @@
 <% end %>
 
   <% if can? :update, @categories %>
-    <%= link_to t('.edit', :default => t("Manage category")),
-                  category_add_path(@category), :class => 'btn btn-info' %>
+    <%= link_to "Add Case Studies", category_add_path(@category), :class => 'btn btn-info' %>
   <% end %>
 
+  <span class="pull-right">
+  <% if can? :update, @categories %>
+  <a data-target="#" class="btn btn-default" id="show">Manage</a>
+    <%= link_to "Edit", edit_category_path(@category), :class => 'btn btn-info delete' %>
+  <% end %>
   <% if can? :destroy, @categories %>
     <%= link_to "Delete", category_path(@category),
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => 'Are you sure you want to delete this category?') },
-                      :class => 'btn btn-danger pull-right' %></td>
+                      :class => 'btn btn-danger delete' %></td>
   <% end %>
+</span>
 
