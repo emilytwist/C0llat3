@@ -16,21 +16,28 @@
   <% end %>
   <div class="dl-horizontal">
     <%= f.input :product_code, label: 'Enter product code', hint: 'e.g. GD10, RX250', error: 'You must enter a product code' %>
-    <%= f.input :description, label: 'Enter description', hint: 'Enter a description for the product', error: 'You must enter a description for the product' %>
+    <%= f.input :description, label: 'Enter description', hint: 'Enter a description for the product', error: 'You must enter a description for the product' %>  
   </div>
+  <h4>Optional:</h4>
+  <br />
     <div class="dl-horizontal">
-      <h4>Images and Documentation (optional):</h4>
+      <h5>Images and Documentation</h5>
       <p><%= f.label :main_image %>
       <%= f.file_field :header_image %></p>
       <p><%= f.label :uploads %>
       <%= f.file_field :uploads, multiple:true %></p>
-    </div>
+      <br /><br />
+    
+    <h5 id="product-options">Product Options</h5>
+    <p>Enter product options (e.g. conformal coating) and product code, if applicable.</p>
+    <%= f.text_area :options, rows: 10, :class => "tinymce" %>
+  </div>
 
   <div class="form-group">
     <div class="col-lg-10">
       <%= f.submit nil, :class => 'btn btn-primary' %>
       <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                products_path, :class => 'btn btn-default' %>
+                product_path, :class => 'btn btn-default' %>
     </div>
   </div>
 

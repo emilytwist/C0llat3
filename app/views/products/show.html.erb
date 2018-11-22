@@ -12,7 +12,7 @@
   <div class="dl-horizontal" id="product-description">
     <span><strong><%= model_class.human_attribute_name(:description) %>: </strong></span>
     <span><%= @product.description %></span>
-    <p class="image-message">Click the Edit button to add images and documentation</p>
+    <p class="image-message">Click the Manage > Edit button to add images and documentation</p>
   </div>
   <% end %>
 
@@ -94,6 +94,19 @@
     <% end %>
       </ul>
 </div>
+<% if @product.options.blank? %>
+
+  <% else %>
+  <div class="dl-horizontal">
+    <h4>Product Options</h4>
+    <% if can? :update, @product %>
+      <%=link_to "Add Options", edit_product_path(@product, anchor: "product-options"), :class => 'add-product-info' %>
+    <% end %>
+    <%= simple_format(@product.options) %>
+  </div>
+
+<% end %>
+
 
 <div id="product-links">
 <%= link_to t('.index', :default => t("helpers.links.index")),
