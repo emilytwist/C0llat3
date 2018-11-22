@@ -111,8 +111,7 @@
 
     <div id="footer">
       <footer>
-         <span class="pull-left">&copy; Eltek Ltd. 2018<% if user_signed_in? && current_user.eltek? %> | <%= link_to("Admin Area", users_path) %></span>
-         <% end %>
+         <span class="pull-left">&copy; Eltek Ltd. 2018<% if user_signed_in? && current_user.eltek? %> | <%= link_to("Admin Area", users_path) %><% end %></span>
           <% if user_signed_in? %>
             <span class="pull-right">Logged in as <strong><%= link_to "#{current_user.email}", edit_user_registration_path %></strong> | <%= link_to "Logout", destroy_user_session_path, method: :delete %></span>
           <% end %>

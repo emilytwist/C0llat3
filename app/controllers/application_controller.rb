@@ -38,7 +38,8 @@ private
 protected
 
 	def configure_permitted_parameters
-	  devise_parameter_sanitizer.permit(:accept_invitation, keys: [:first_name, :last_name, :company, :email])
+	  devise_parameter_sanitizer.permit(:invitation, keys: [:first_name, :last_name, :company, :email, :distributor])
+	  devise_parameter_sanitizer.permit(:accept_invitation, keys: [:first_name, :last_name, :company, :email, :distributor])
 	end
 
 end

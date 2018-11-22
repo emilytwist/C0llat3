@@ -21,4 +21,5 @@ Rails.application.routes.draw do
   match '/users',   to: 'users#index',   via: 'get'
 
   devise_for :users, :controllers => { registrations: 'registrations', :invitations => 'users/invitations' }
+  resources :users
 end

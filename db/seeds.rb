@@ -4,7 +4,10 @@
 # Examples:
 #
 
-User.create(email: "emily2@eltekdataloggers.co.uk", password: "password123", password_confirmation: "password123", eltek: true, first_name: "Admin", last_name: "User", company: "Eltek")
+user = User.new(email: "emily@eltekdataloggers.co.uk", password: "password123", password_confirmation: "password123", eltek: true, first_name: "Admin", last_name: "User", company: "Eltek")
+user.save!
+puts "#{user.email} saved"
+
 
 require 'csv'
 
@@ -13,3 +16,5 @@ require 'csv'
     product.save!
     puts "#{product.product_code} saved"
   end
+
+puts "There are now #{Product.count} rows in the product table."

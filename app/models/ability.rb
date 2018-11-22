@@ -5,16 +5,30 @@ class Ability
     # Define abilities for the passed in user here. For example:
  
     user ||= User.new # guest user (not logged in)
+
+    if User.count == 1
+      cannot :destroy, User
+    end
+
     if user.eltek?
       can :manage, :all
+      if User.count == 1
+        cannot :destroy, User
+      end
 
     elsif user.distributor?
       can :read, :all
       cannot :read, Note, {visible: false}
-      cannot :read, User
-      cannot :create, User
+      cannot :manage, User
+      if User.count == 1
+        cannot :destroy, User
+      end
+
     else
-      cannot :read, :all
+      cannot :manage, :all
+      if User.count == 1
+        cannot :destroy, User
+      end
     end
   end
 end

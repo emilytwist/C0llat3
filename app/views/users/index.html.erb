@@ -1,5 +1,6 @@
 <h1>List of Users</h1>
-<%= link_to "Invite User", new_user_invitation_path, :class => 'btn btn-info pull-right', :id => 'invite-user' %>
+<span class="pull-right" id="invite-user"><%= link_to "Invite User", new_user_invitation_path, :class => 'btn btn-info' %>&nbsp;&nbsp;&nbsp;<a data-target="#" id="show" class="btn btn-default">Details</a></span>
+
 
 <table class="table table-hover">
 	<tr>
@@ -7,13 +8,18 @@
 		<th>Last Name</th>
 		<th>Company</th>
 		<th>Email</th>
+		<th class="delete">Accepted?</th>
+		<th class="delete">Invited on</th>
+
 	</tr>
 <% @users.each do |user| %>
 	<tr>
 		<td><%= user.first_name %></td>
 		<td><%= user.last_name %></td>
 		<td><%= user.company %></td>
-		<td><%= user.email %></td>
+		<td><%= link_to user.email, user_path(user) %></td>
+		<td class="delete"><% if user.created_by_invite? && user.invitation_accepted? %>Yes<% elsif user.created_by_invite? %>No<% else %>n/a<% end %></td> 
+		<td class="delete"><% if user.created_by_invite? %><%= user.created_at.strftime("%d/%m/%Y") %><% else %>n/a<% end %></td>
 	</tr>
 <% end %>
 </table>
