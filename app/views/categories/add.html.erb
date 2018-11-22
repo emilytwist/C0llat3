@@ -1,0 +1,42 @@
+<%= simple_form_for @category, :html => { :class => "form-horizontal study" } do |f| %>
+
+  <% if @category.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@study.errors.count, "error") %> prohibited the studies from being added to this category:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @category.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+<% if @studies.exists? %>
+  <h3>Available studies:</h3>
+<div class = "dl-horizontal">
+  <table class="table">
+    <%= f.collection_check_boxes(:study_ids, @studies, :id, :name, checked: @category.studies.map(&:id)) do |b| %>
+    <tr class="studylist">
+        <td><%= b.check_box(:class => 'studybox') %> <%= b.label %></td>
+    </tr>
+    <% end %>
+  </table>
+    <% else %>
+    <h4>Please add studies to the database first</h4>
+   <% end %>
+</div>
+
+
+  <div class="form-group">
+    <div class="col-lg-10">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                category_path(@category), :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

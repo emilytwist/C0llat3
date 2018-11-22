@@ -1,0 +1,30 @@
+<%- model_class = Study -%>
+<div class="page-header">
+  <h1><%= @study.name %></h1>
+</div>
+
+<div class="dl-horizontal">
+  <p><%= @study.description %></p>
+
+</div>
+<div id="study-links">
+<%= link_to t('.index', :default => t("helpers.links.index")),
+              studies_path, :class => 'btn btn-default'  %>
+
+<div id="change-buttons">
+  <% if can? :destroy, @studies %>
+      <a data-target="#", id="show" class="btn btn-default">Manage</a>
+  <% end %>
+  <% if can? :update, @studies %>
+<%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_study_path(@study), :class => 'btn btn-info' %>
+  <% end %>
+  <% if can? :destroy, @studies %>
+<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              study_path(@study),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger', :id =>'delete' %>
+  <% end %>
+</div>              
+</div>

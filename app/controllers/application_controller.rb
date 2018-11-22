@@ -33,6 +33,9 @@ private
 		if Group.exists?
 			@groups = Group.all
 		end
+		if Category.exists?
+			@categories = Category.all
+		end
 	end
 
 protected

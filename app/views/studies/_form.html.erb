@@ -1,0 +1,30 @@
+<%= simple_form_for @study, :html => { :class => "form-horizontal product" } do |f| %>
+
+  <% if @study.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@study.errors.count, "error") %> prohibited this study from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @study.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+  <div class="dl-horizontal">
+    <%= f.input :name, label: 'Enter name for case study', hint: 'e.g. business type, name of company', error: 'You must enter a name' %>
+    <%= f.input :description, label: 'Enter description', hint: 'Enter the details of the case study', error: 'You must enter a description for the case study' %>
+  </div>
+
+  <div class="form-group">
+    <div class="col-lg-10">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                studies_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

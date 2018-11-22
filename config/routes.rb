@@ -17,6 +17,15 @@ Rails.application.routes.draw do
   	get 'add'
   end
 
+  resources :studies do
+    resources :categories
+  end
+
+  resources :categories do
+    resources :studies
+    get 'add'
+  end
+
   root 'welcome#index'
   match '/users',   to: 'users#index',   via: 'get'
 

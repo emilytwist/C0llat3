@@ -1,0 +1,30 @@
+<%- model_class = Category -%>
+<div class="page-header">
+  <h1><%= @category.name %></h1>
+</div>
+
+              
+<div class="dl-horizontal">
+  <% if @category.studies.present? %>
+    <% @category.studies.each do |study| %>
+        <dt><%= link_to study.name, study_path(study) %></dt><dd><%= truncate(study.description, :length => 70, :separator => ' ') %></dd>
+    <% end %>
+  </ul>
+  <% else %>
+    <h4>Click below to add studies to this category</h4>
+  <% end %>
+</div>
+
+
+  <% if can? :update, @categories %>
+    <%= link_to t('.edit', :default => t("Manage category")),
+                  category_add_path(@category), :class => 'btn btn-info' %>
+  <% end %>
+
+  <% if can? :destroy, @categories %>
+    <%= link_to "Delete", category_path(@category),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => 'Are you sure you want to delete this category?') },
+                      :class => 'btn btn-danger pull-right' %></td>
+  <% end %>
+

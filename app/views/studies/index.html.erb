@@ -1,0 +1,35 @@
+<%- model_class = Study -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+
+<div class="flickr_pagination">
+    <%= will_paginate @studies, :container => false %>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th class="col-md-1"><%= model_class.human_attribute_name(:name) %></th>
+      <th class="col-md-5"><%= model_class.human_attribute_name(:description) %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @studies.each do |study| %>
+      <tr>
+        <td><%= link_to study.name, study_path(study) %></td>
+        <td><%= truncate(study.description, :length => 90, :separator => ' ') %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="flickr_pagination">
+    <%= will_paginate @studies, :container => false %>
+</div>
+
+<% if can? :create, @studies %>
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_study_path,
+            :class => 'btn btn-primary' %>
+<% end %> 

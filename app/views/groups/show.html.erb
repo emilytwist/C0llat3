@@ -7,7 +7,7 @@
 <div class="dl-horizontal">
   <% if @group.products.present? %>
     <% @group.products.each do |product| %>
-        <dt><%= link_to product.product_code, group_product_path(product) %></dt><dd><%= truncate(product.description, :length => 70, :separator => ' ') %></dd>
+        <dt><%= link_to product.product_code, product_path(product) %></dt><dd><%= truncate(product.description, :length => 70, :separator => ' ') %></dd>
     <% end %>
   </ul>
   <% else %>

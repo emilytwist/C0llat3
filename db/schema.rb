@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_20_163517) do
+ActiveRecord::Schema.define(version: 2018_11_22_123709) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,18 @@ ActiveRecord::Schema.define(version: 2018_11_20_163517) do
     t.string "checksum", null: false
     t.datetime "created_at", null: false
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+  end
+
+  create_table "categories_studies", id: false, force: :cascade do |t|
+    t.bigint "study_id"
+    t.bigint "category_id"
+    t.index ["category_id"], name: "index_categories_studies_on_category_id"
+    t.index ["study_id"], name: "index_categories_studies_on_study_id"
   end
 
   create_table "faqs", force: :cascade do |t|
@@ -70,6 +82,18 @@ ActiveRecord::Schema.define(version: 2018_11_20_163517) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "studies", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+  end
+
+  create_table "studies_products", id: false, force: :cascade do |t|
+    t.bigint "study_id"
+    t.bigint "product_id"
+    t.index ["product_id"], name: "index_studies_products_on_product_id"
+    t.index ["study_id"], name: "index_studies_products_on_study_id"
   end
 
   create_table "users", force: :cascade do |t|
