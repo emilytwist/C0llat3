@@ -1,0 +1,42 @@
+<%= simple_form_for @study, :html => { :class => "form-horizontal product" } do |f| %>
+
+  <% if @study.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@product.errors.count, "error") %> prohibited the products from being added to this study:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @study.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+<% if @products.exists? %>
+  <h3>Available products:</h3>
+<div class = "dl-horizontal">
+  <table class="table">
+    <%= f.collection_check_boxes(:product_ids, @products, :id, :product_code, checked: @study.products.map(&:id)) do |b| %>
+    <tr class="productlist">
+        <td><%= b.check_box(:class => 'productbox') %> <%= b.label %></td>
+    </tr>
+    <% end %>
+  </table>
+    <% else %>
+    <h4>Please add products to the database first</h4>
+   <% end %>
+</div>
+
+
+  <div class="form-group">
+    <div class="col-lg-10">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                study_path(@study), :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

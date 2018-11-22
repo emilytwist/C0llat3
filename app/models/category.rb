@@ -4,5 +4,6 @@ class Category < ApplicationRecord
 
 	has_and_belongs_to_many :studies
 	accepts_nested_attributes_for :studies
+	has_many :products, through: :studies
 
 end

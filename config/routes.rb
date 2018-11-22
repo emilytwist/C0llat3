@@ -19,6 +19,8 @@ Rails.application.routes.draw do
 
   resources :studies do
     resources :categories
+    resources :products
+    get 'add'
   end
 
   resources :categories do

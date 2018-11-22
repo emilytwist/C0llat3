@@ -29,12 +29,19 @@ class StudiesController < ApplicationController
 	end
 
 	def update
+		@product = Product.all
 
 		if @study.update(study_params)
 			redirect_to @study
 		else
 			render 'edit'
 		end
+	end
+
+	def add
+  		@study = Study.find(params[:study_id])
+  		@products = Product.all.order :product_code
+
 	end
 
 	def destroy
@@ -45,6 +52,10 @@ class StudiesController < ApplicationController
 
 	private
 		def study_params
-			params.require(:study) .permit(:name, :description)
+		  params.require(:study) .permit(:name, :description, product_ids: [])
+		end
+
+		def load_product
+		  @product = Product.find_by(params[:product_id])
 		end
 end

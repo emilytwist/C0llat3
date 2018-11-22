@@ -66,6 +66,9 @@ gem 'jquery-ui-rails'
 
 gem 'will_paginate'
 
+#WYSIWYG editor for text fields
+gem 'tinymce-rails'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
