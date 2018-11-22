@@ -4,7 +4,7 @@
 # Examples:
 #
 
-user = User.new(email: "emily@eltekdataloggers.co.uk", password: "password123", password_confirmation: "password123", eltek: true, first_name: "Admin", last_name: "User", company: "Eltek")
+user = User.new(email: "emily2@eltekdataloggers.co.uk", password: "password123", password_confirmation: "password123", eltek: true, first_name: "Admin", last_name: "User", company: "Eltek")
 user.save!
 puts "#{user.email} saved"
 
