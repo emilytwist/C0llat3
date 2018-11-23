@@ -43,6 +43,14 @@ class ProductsController < ApplicationController
 		redirect_to products_path
 	end
 
+	def remove
+		@product = Product.find(params[:product_id])
+		@upload = @product.uploads.find(params[:upload_id])
+		@upload.purge
+
+		redirect_to product_path(@product), notice: "Upload was successfully removed."
+	end
+
 	private
 		def product_params
 			params.require(:product) .permit(:product_code, :description, :options, :header_image, group_ids: [], uploads: [])

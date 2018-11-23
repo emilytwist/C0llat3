@@ -8,7 +8,9 @@ Rails.application.routes.draw do
   	resources :notes
   	resources :faqs
   	resources :groups
-    resources :uploads 
+    resources :uploads do
+    match '/remove', to: 'products#remove', via: 'delete'
+    end
   end
 
 

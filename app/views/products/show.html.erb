@@ -23,7 +23,6 @@
       <%= link_to 'Add documentation', edit_product_path(@product), :class => 'add-product-info', :id => 'documentation' %>
     <% end %>
     <% @product.uploads.each do |upload| %>
-    
       <% if upload.variable? %>
         <span><%= image_tag upload.variant(resize: "100x100"), class: "other-image" %></span>
       <% elsif upload.previewable? %>
@@ -31,6 +30,12 @@
       <% else %>
         <span><%= link_to image_tag("paper.jpg", size: "100x100", class: "other-image"), rails_blob_path(upload), target: "_blank" %></span>
       <% end %>
+      <% if can? :destroy, @product.uploads %>
+            <%= link_to "X", product_upload_remove_path(@product, upload),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => 'Are you sure you want to delete this upload?') },
+                      :class => 'delete delete-upload' %></td>
+          <% end %>
     <% end %>
   </div>
 <% end %>

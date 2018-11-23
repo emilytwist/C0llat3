@@ -10,10 +10,12 @@
 <div class="dl-horizontal">
   <% if @study.products.present? %>
   <h5>Products used in this case study:</h5>
+  <% else %>
+  <h5>&nbsp;</h5>
+  <% end %>
   <% if can? :update, @studies %>
   <%= link_to t('.edit', :default => t("Add products")),
                   study_add_path(@study), :class => 'add-product-info' %>
-  <% end %>
     <% @study.products.each do |product| %>
         <dt><%= link_to product.product_code, product_path(product) %></dt><dd><%= truncate(product.description, :length => 70, :separator => ' ') %></dd>
     <% end %>
