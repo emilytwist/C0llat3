@@ -32,6 +32,7 @@ class StudiesController < ApplicationController
 		@product = Product.all
 
 		if @study.update(study_params)
+
 			redirect_to @study
 		else
 			render 'edit'
@@ -52,10 +53,11 @@ class StudiesController < ApplicationController
 
 	private
 		def study_params
-		  params.require(:study) .permit(:name, :description, product_ids: [])
+		  params.require(:study) .permit(:name, :description, :banner, product_ids: [])
 		end
 
 		def load_product
 		  @product = Product.find_by(params[:product_id])
 		end
+
 end

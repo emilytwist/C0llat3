@@ -19,6 +19,10 @@
     <%= f.text_area :description, rows: 10, :class => "tinymce" %>
   </div>
 
+  <h5>Banner image</h5>
+      <p><%= f.label :banner %>
+      <%= f.file_field :banner %></p>
+
   <div class="form-group">
     <div class="col-lg-10">
       <%= f.submit nil, :class => 'btn btn-primary' %>

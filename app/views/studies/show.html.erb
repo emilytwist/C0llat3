@@ -1,5 +1,6 @@
 <%- model_class = Study -%>
 <div class="page-header">
+  <%= image_tag @study.banner.variant(resize: "940x940", crop: "940x120+0+140"), id: "banner-image" %>
   <h1><%= @study.name %></h1>
 </div>
 
