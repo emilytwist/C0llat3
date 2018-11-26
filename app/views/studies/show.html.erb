@@ -1,6 +1,8 @@
 <%- model_class = Study -%>
 <div class="page-header">
+  <% if @study.banner.attached? %>
   <%= image_tag @study.banner.variant(resize: "940x940", crop: "940x120+0+140"), id: "banner-image" %>
+  <% end %>
   <h1><%= @study.name %></h1>
 </div>
 
@@ -27,6 +29,28 @@
   <% end %>
 
 </div>
+
+
+  <% if @study.images.attached? %>
+  <div class="dl-horizontal" id="product-uploads">
+    <% @study.images.each do |image| %>
+      <% if image.variable? %>
+        <span><%= link_to image_tag(image.variant(resize: "200x200"), class: "other-image"), rails_blob_path(image), data: { lightbox: "example-set", title: @study.name } %></span>
+      <% elsif image.previewable? %>
+        <span><%= link_to image_tag(image.preview(resize: "100x100"), class: "other-image"), rails_blob_path(image), target: "_blank" %></span>
+      <% else %>
+        <span><%= link_to image_tag("paper.jpg", size: "100x100", class: "other-image"), rails_blob_path(image), target: "_blank" %></span>
+      <% end %>
+      <% if can? :destroy, @study.images %>
+            <%= link_to "X", study_image_remove_path(@study, image),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => 'Are you sure you want to delete this image?') },
+                      :class => 'delete delete-upload' %></td>
+          <% end %>
+    <% end %>
+  </div>
+<% end %>
+
 
 <div id="study-links">
 <%= link_to t('.index', :default => t("helpers.links.index")),

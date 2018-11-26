@@ -8,6 +8,7 @@ class Study < ApplicationRecord
 	accepts_nested_attributes_for :products
 
 	has_one_attached :banner
+	has_many_attached :images
 
 
 end

@@ -22,6 +22,9 @@
   <h5>Banner image</h5>
       <p><%= f.label :banner %>
       <%= f.file_field :banner %></p>
+  <h5>Other images</h5>
+      <p><%= f.label :images %>
+      <%= f.file_field :images, multiple:true %></p>
 
   <div class="form-group">
     <div class="col-lg-10">

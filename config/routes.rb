@@ -23,6 +23,9 @@ Rails.application.routes.draw do
     resources :categories
     resources :products
     get 'add'
+    resources :images do
+    match '/remove', to: 'studies#remove', via: 'delete'
+    end
   end
 
   resources :categories do

@@ -51,9 +51,17 @@ class StudiesController < ApplicationController
 		redirect_to studies_path
 	end
 
+	def remove
+		@study = Study.find(params[:study_id])
+		@image = @study.images.find(params[:image_id])
+		@image.purge
+
+		redirect_to study_path(@study), notice: "Image was successfully removed."
+	end
+
 	private
 		def study_params
-		  params.require(:study) .permit(:name, :description, :banner, product_ids: [])
+		  params.require(:study) .permit(:name, :description, :banner, images: [], product_ids: [])
 		end
 
 		def load_product
