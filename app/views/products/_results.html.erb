@@ -1,0 +1,16 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th class="col-md-1"><%= model_class.human_attribute_name(:product_code) %></th>
+      <th class="col-md-5"><%= model_class.human_attribute_name(:description) %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td><%= link_to product.product_code, product_path(product) %></td>
+        <td><%= truncate(product.description, :length => 90, :separator => ' ') %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

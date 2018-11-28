@@ -7,9 +7,6 @@
     <tr>
       <th class="col-md-1"><%= model_class.human_attribute_name(:name) %></th>
       <th class="col-md-5"><%= model_class.human_attribute_name(:description) %></th>
-      <% if can? [:update, :destroy], @groups %>
-      <th class="col-md-1"><%=t '.actions', :default => t("helpers.actions") %></th>
-      <% end %>
     </tr>
   </thead>
   <tbody>
@@ -17,11 +14,6 @@
       <tr>
         <td><%= link_to group.name, group_path(group) %></td>
         <td><%= group.description %></td>
-        <td>
-          <% if can? :update, @groups %>
-          <%= link_to "Edit", edit_group_path(group), :class => 'btn btn-info btn-xs' %>
-          <% end %>
-        </td>
       </tr>
     <% end %>
   </tbody>

@@ -2,7 +2,12 @@ class ProductsController < ApplicationController
 	load_and_authorize_resource
 
 	def index
+		@products = if params[:query]
+	    Product.where('product_code LIKE ?', "%#{params[:query]}%")
+	    render 'results'
+	  else
 		@products = Product.paginate(:page => params[:page], :per_page => 10).order :product_code
+	  end
 	end
 
 	def show
@@ -53,6 +58,6 @@ class ProductsController < ApplicationController
 
 	private
 		def product_params
-			params.require(:product) .permit(:product_code, :description, :options, :header_image, group_ids: [], uploads: [])
+			params.require(:product) .permit(:query, :product_code, :description, :options, :header_image, group_ids: [], uploads: [])
 		end
 end
