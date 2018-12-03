@@ -1,2 +1,10 @@
 <h1>Collate by Eltek</h1>
-<%= link_to 'List of products', controller: 'products' %>
+
+<% if user_signed_in? && current_user.last_viewed.present? %>
+<h4>Recently viewed products</h4>
+<%= current_user.last_viewed %>
+	<% current_user.last_viewed.each do |viewed| %>
+	<p><%= viewed %></p>
+		<p><%= link_to @products.find_by_id(viewed).product_code, product_path(viewed) %></p>
+	<% end %>
+<% end %>
