@@ -17,18 +17,19 @@
   <% end %>
 
 
-<% if @product.uploads.attached? %>
   <div class="dl-horizontal" id="product-uploads">
+    <% if @product.uploads.attached? %>
     <% if can? :update, @product %>
       <%= link_to 'Add documentation', edit_product_path(@product), :class => 'add-product-info', :id => 'documentation' %>
-    <% end %>
+    <% end %><% end %>
+    <% if @product.uploads.attached? %>
     <% @product.uploads.each do |upload| %>
       <% if upload.variable? %>
-        <span><%= image_tag upload.variant(resize: "100x100"), class: "other-image" %></span>
+        <div><%= image_tag upload.variant(resize: "100x100"), class: "other-image" %><br /><span><%= upload.filename %></span></div>
       <% elsif upload.previewable? %>
-        <span><%= link_to image_tag(upload.preview(resize: "100x100"), class: "other-image"), rails_blob_path(upload), target: "_blank" %></span>
+        <div><%= link_to image_tag(upload.preview(resize: "100x100"), class: "other-image"), rails_blob_path(upload), target: "_blank" %><br /><span><%= upload.filename %></span></div>
       <% else %>
-        <span><%= link_to image_tag("paper.jpg", size: "100x100", class: "other-image"), rails_blob_path(upload), target: "_blank" %></span>
+        <span><%= link_to image_tag("paper.jpg", size: "100x100", class: "other-image"), rails_blob_path(upload), target: "_blank" %><br /><%= upload.filename %></span>
       <% end %>
       <% if can? :destroy, @product.uploads %>
             <%= link_to "X", product_upload_remove_path(@product, upload),

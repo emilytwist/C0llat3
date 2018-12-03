@@ -20,7 +20,7 @@
   <%= link_to t('.edit', :default => t("Add products")),
                   study_add_path(@study), :class => 'add-product-info' %>
     <% @study.products.each do |product| %>
-        <dt><%= link_to product.product_code, product_path(product) %></dt><dd><%= truncate(product.description, :length => 70, :separator => ' ') %></dd>
+        <dt><% if product.groups.exists? %><%= product.groups.first.name %>:<% else %>Other:<% end %></dt><dd><%= link_to product.product_code, product_path(product) %> (<%= truncate(product.description, :length => 70, :separator => ' ') %>)</dd>
     <% end %>
   </ul>
   <% elsif can? :update, @studies %>
