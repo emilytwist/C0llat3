@@ -18,10 +18,11 @@
 <p>Products that have been used in case studies in this category:</p>
 <div class="dl-horizontal">
    <% @category.products.each do |product| %>
-        <dt><%= link_to product.product_code, product_path(product) %></dt><dd><%= truncate(product.description, :length => 70, :separator => ' ') %></dd>
+        <dt><% if product.groups.exists? %><%= product.groups.first.name %>:<% else %>Other:<% end %></dt><dd><%= link_to product.product_code, product_path(product) %> (<%= truncate(product.description, :length => 70, :separator => ' ') %>)</dd>
     <% end %>
 </div>
 <% end %>
+
 
   <% if can? :update, @categories %>
     <%= link_to "Add Case Studies", category_add_path(@category), :class => 'btn btn-info' %>
