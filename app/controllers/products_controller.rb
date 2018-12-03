@@ -15,15 +15,13 @@ class ProductsController < ApplicationController
 			@last_viewed = current_user.last_viewed
 			@last_viewed.unshift(@product.id.to_s)
 			@last_viewed.uniq!	
+			current_user.last_viewed = @last_viewed[0..5]
 		else 
 			current_user.last_viewed.unshift(@product.id.to_s)
 		end
 
-		current_user.last_viewed = @last_viewed[0..4]
-
 		current_user.save!
 
-		flash.now[:notice] = current_user.last_viewed
 	end
 
 	def new
