@@ -36,6 +36,8 @@ Rails.application.routes.draw do
   root 'welcome#index'
   match '/users',   to: 'users#index',   via: 'get'
 
+  resources :searches 
+
   devise_for :users, :controllers => { registrations: 'registrations', :invitations => 'users/invitations' }
   resources :users
 end

@@ -37,11 +37,12 @@ class NotesController < ApplicationController
       if @note.save
         format.html { redirect_to product_path(@product), notice: 'Note was successfully added.' }
       else
-        flash.now[:error] = "Note was not created."
+        format.html { flash.now[:error] = "Note was not created." }
         render 'new'
       end
     end
   end
+
 
   # PATCH/PUT /notes/1
   # PATCH/PUT /notes/1.json

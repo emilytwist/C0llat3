@@ -33,10 +33,15 @@
 }
 
 #product-uploads {
-	clear:both;
+	height:auto;
 	width:100%;
+  display:table;
 }
 
+.product-uploads-span{
+  float:left;
+  margin-left:10px;
+}
 
 #product_description {
 	min-height: 100px;

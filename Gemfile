@@ -70,6 +70,10 @@ gem 'will_paginate'
 #WYSIWYG editor for text fields
 gem 'tinymce-rails'
 
+gem 'loofah'
+
+gem 'pg_search'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

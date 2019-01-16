@@ -1,16 +1,15 @@
-<div class="dl-horizontal">
 <%= simple_form_for [@product, @note] do |f| %>
   <%= f.error_notification %>
   <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
 
   <div class="form-inputs">
-  	<%= f.input :content, :placeholder => "Enter note text here" %>
-  	<%= f.hidden_field :author, :value => current_user.first_name %>
-  	<span><%= f.check_box :visible %>  <%= f.label "Visible to distributors?" %></span>
+    <%= f.input :content, :placeholder => "Enter note text here" %>
+    <%= f.hidden_field :author, :value => current_user.first_name %>
+    <span><%= f.check_box :visible %>  <%= f.label "Visible to distributors?" %></span>
   </div>
-</div>
 
   <div class="form-actions">
-    <%= f.button :submit, :class => 'btn btn-primary', default: "Create" %>
+    <%= f.submit "Create", :class => 'btn btn-primary' %>
+  <%= link_to 'Back', product_path(@product), :class => 'btn btn-danger pull-right' %>
   </div>
 <% end %>

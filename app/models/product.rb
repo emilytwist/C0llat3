@@ -1,4 +1,8 @@
 class Product < ApplicationRecord
+
+	include PgSearch
+  	multisearchable :against => [:product_code, :description]
+
 	validates :product_code, presence: true
 	validates :description, presence: true
 
@@ -14,5 +18,13 @@ class Product < ApplicationRecord
 	has_and_belongs_to_many :studies
 	accepts_nested_attributes_for :studies
 	has_many :categories, through: :studies
+
+	def self.search(query)
+	  if query.present?
+	    search(query)
+	  else
+	    scoped
+	  end
+	end
 
 end

@@ -77,6 +77,11 @@
               </ul>
             </li>
           </ul>
+          <div id="search-bar" class="form-group">
+            <%= form_tag searches_path, :class => "form-inline", method: :get do %>
+              <span><%= text_field_tag :query, params[:query], :class => "form-control" %><%= submit_tag "Search", name: nil, :class => "form-control", :id => "search-submit" %></span>
+            <% end %>
+          </div>
         </div>
       </div>
     </div>
@@ -108,8 +113,11 @@
         </div>
       </div>
     </div>
-    <%= javascript_include_tag "application" %>
-    <%= tinymce %>
+    </div>
+    <div id="missing-info">
+      <% if user_signed_in? %>
+        <p>Anything missing from this page? Notify us: <a href="mailto:collate@eltekdataloggers.co.uk?subject=Missing%20info%20request:%20<%=request.original_url%>">collate@eltekdataloggers.co.uk</a></p>
+      <% end %>
     </div>
     <div id="footer">
       <footer>
@@ -119,4 +127,6 @@
           <% end %>
       </footer>
   </body>
+  <%= javascript_include_tag "application" %>
+    <%= tinymce %>
 </html>

@@ -1,4 +1,8 @@
 class Category < ApplicationRecord
+
+	include PgSearch
+  	multisearchable :against => [:name, :description]
+
 	validates :name, presence: true
 	validates :description, presence: true
 

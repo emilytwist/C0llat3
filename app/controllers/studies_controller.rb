@@ -68,4 +68,5 @@ class StudiesController < ApplicationController
 		  @product = Product.find_by(params[:product_id])
 		end
 
+
 end
